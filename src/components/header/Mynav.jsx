@@ -2,7 +2,7 @@ import React from 'react'
 
  function Mynav() {
   return (
-    <div class="listbox">
+    <div class="bg-blue-800">
           <ul>
             Home
           </ul>
