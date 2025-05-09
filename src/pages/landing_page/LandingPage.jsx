@@ -3,8 +3,8 @@ import React from 'react';
 import Navbar from '../../components/header/Navbar';
  function Landingpage() {
   return (
-    <div class="landingpagecolor">
-    <div class="bar">
+    <div className="landingpagecolor">
+    <div className="bar">
       <Navbar/>
       
       
