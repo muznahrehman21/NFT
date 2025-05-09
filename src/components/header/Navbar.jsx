@@ -4,7 +4,7 @@ import Mynav from './Mynav';
 import Mybutton from './Mybutton';
  function Navbar() {
   return (
-    <div class="bg-amber-300 w-800 h-20 flex  items-center">
+    <div className=" w-800 h-20 flex  items-center ">
 <Mylogo/>
 <Mynav/>
 <Mybutton/>
