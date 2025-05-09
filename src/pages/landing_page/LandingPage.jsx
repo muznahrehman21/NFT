@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Navbar from '../../components/header/Navbar';
- function LandingPage() {
+ function Landingpage() {
   return (
     <div class="landingpagecolor">
     <div class="bar">
@@ -14,4 +14,4 @@ import Navbar from '../../components/header/Navbar';
   </div>
   )
 }
-export default LandingPage;
+export default Landingpage;
