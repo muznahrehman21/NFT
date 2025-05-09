@@ -1,4 +1,4 @@
-import LandingPage from './pages/landing_page/landingpage.jsx';
+import LandingPage from './pages/landing_page/landingpage';
 
 import React from 'react'
 import './App.css'
