@@ -4,6 +4,11 @@ import react from '@vitejs/plugin-react'
 
 
 export default defineConfig({
-  plugins: [tailwindcss(),
-    react()],
+  plugins: [
+    tailwindcss(),
+    react(),
+  ],
+  css: {
+    postcss: './postcss.config.js',
+  },
 })
