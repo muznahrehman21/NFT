@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
+    <div className='bg-bg min-h-screen'>
 <LandingPage/>
+</div>
     </>
   )
 }

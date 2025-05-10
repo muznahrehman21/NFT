@@ -4,7 +4,7 @@ import Mynav from './Mynav';
 import Mybutton from './Mybutton';
  function Navbar() {
   return (
-    <div className=" w-800 h-20 flex  items-center ">
+    <div className="  m-auto flex   justify-between">
 <Mylogo/>
 <Mynav/>
 <Mybutton/>
