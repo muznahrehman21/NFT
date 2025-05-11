@@ -5,7 +5,7 @@ import LandingPage from "./pages/landing/LandingPage";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center bg-[#F5F5F5]">
+    <div className="flex flex-col justify-center items-center bg-[#FFF9F9]">
       <Header />
       {/* <LandingPage /> */}
       {/* <Footer /> */}
