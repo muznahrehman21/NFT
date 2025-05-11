@@ -12,6 +12,9 @@ export const theme = {
       trade: "#808080",
       featured: "#000000",
     },
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+    },
   },
 };
 export const plugins = [];

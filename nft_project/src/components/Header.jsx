@@ -10,10 +10,14 @@ export default function Header() {
       </div>
       <div className="flex home&nfttext">
         {/* home and nft marketplace txt with links of those pages here */}
-        <div className="home">Home</div>
-        <div className="nftmarketplace">AI NFT GENERATION</div>
+        <div className="home">
+          <p> Home</p>
+        </div>
+        <div className="nftmarketplace">
+          <p>AI NFT GENERATION</p>
+        </div>
       </div>
-      <div className="flex items-center gap-[10px] from-[#FD0000] to-[#FF9292] p-[16px_32px] border-[1.8px] border-gradient-to-r rounded-[8px]">
+      <div className="flex items-center gap-[10px] p-[16px_32px]">
         <Button1 />
         <Button2 />
       </div>
