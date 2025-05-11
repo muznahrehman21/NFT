@@ -2,7 +2,7 @@ import React from "react";
 
 function Button1() {
   return (
-    <button className="bg-gradient-to-r from-btn1 to-btn2 px-8 py-3 rounded-lg font-bold text-white text-sm">
+    <button className="bg-gradient-to-r from-[#ff7f50] to-[#ff6347] px-8 py-3 rounded-lg font-bold text-white text-sm">
       Connect Wallet
     </button>
   );
