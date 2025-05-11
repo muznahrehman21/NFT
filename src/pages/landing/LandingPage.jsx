@@ -5,6 +5,7 @@ export default function LandingPage() {
   return (
     <>
       <Hero />
+      <p className="text-black">Landing page</p>
     </>
   );
 }
