@@ -2,10 +2,10 @@ import React from "react";
 
 function Button1({
   Btn,
-  width = "w-[213px]",
-  textcolor = "text-[#FFFFFF]",
-  bg = "bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]",
-  borderG = false,
+  width = "w-[176px]",
+  textcolor = "text-[#FE0101]",
+  bg = "bg-[#FFFFFF]",
+  borderG = true,
 }) {
   return borderG ? (
     <div className="inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] rounded-[8px] w-[213px] h-[58px]">

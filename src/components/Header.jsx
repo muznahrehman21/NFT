@@ -40,14 +40,14 @@ export default function Header() {
 
         {/* Buttons */}
         <div className="flex items-center gap-[10px] font-roboto">
-          <Button1 Btn="Connect wallet" />
           <Button1
-            Btn="Create NFT"
-            width="w-[176px]"
-            textcolor="text-[#FE0101] "
-            bg="bg-[#FFFFFF]"
-            borderG
+            Btn="Connect Wallet"
+            width="w-[213px]"
+            textcolor="text-[#FFFFFF] "
+            bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
+            borderG={false}
           />
+          <Button1 Btn="Create NFT" />
         </div>
       </div>
     </div>
