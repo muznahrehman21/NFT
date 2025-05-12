@@ -1,5 +1,12 @@
 // tailwind.config.js
 export const content = ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"];
+export const safelist = [
+  "text-[#FE0101]",
+  "text-[#FFFFFF]",
+  "bg-gradient-to-b",
+  "from-[#FF5F5F]",
+  "to-[#FF0000]",
+];
 export const theme = {
   extend: {
     colors: {
