@@ -5,3 +5,14 @@
 @tailwind utilities;
 
 @import "tailwindcss";
+
+@font-face {
+  font-family: "ApexMk2";
+  src: url("../src/assets/fonts/apex/ApexMk2-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-apex: "ApexMk2", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}

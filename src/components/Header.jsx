@@ -10,11 +10,11 @@ export default function Header() {
       <div className="flex justify-between items-center w-[1320px] h-[100px]">
         <div className="flex items-center gap-2">
           {/* Logo */}
-          <img src={logo} alt="logo" className="h-[100px]" />
+          <img src={logo} alt="logo" className="w-[99.73px] h-[100px]" />
           <p className="font-bold text-[#FF0000]"></p>
         </div>
         {/* Navigation Links */}
-        <div className="flex gap-8 font-medium text-[16px] text-black">
+        <div className="flex gap-8 font-apex font-medium text-[16px] text-black">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -39,7 +39,7 @@ export default function Header() {
         </div>
 
         {/* Buttons */}
-        <div className="flex items-center gap-[10px]">
+        <div className="flex items-center gap-[10px] font-roboto">
           <Button1 Btn="Connect wallet" />
           <Button1
             Btn="Create NFT"
