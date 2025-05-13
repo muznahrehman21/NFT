@@ -11,8 +11,13 @@
   src: url("../src/assets/fonts/apex/ApexMk2-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-family: "oxanium";
+  src: url("../src/assets/fonts/oxanium/Oxanium-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @theme {
   --font-apex: "ApexMk2", sans-serif;
   --font-roboto: "Roboto", sans-serif;
+  --font-oxanium: "Oxanium", sans-serif;
 }
