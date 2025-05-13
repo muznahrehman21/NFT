@@ -23,22 +23,7 @@ function Input({
             background:
               "linear-gradient(317.62deg, #FD0000 26.88%, #FF9292 105.85%)",
           }}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="white"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M22 2 11 13" />
-            <path d="m22 2-7 20-4-9-9-4Z" />
-          </svg>
-        </button>
+        ></button>
       </div>
     </BorderWrapper>
   );
