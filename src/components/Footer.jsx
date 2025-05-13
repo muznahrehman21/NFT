@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <div className="flex justify-center items-center w-[1320px] h-[632px]">
       <section className="text-center">
-        <h1 className="font-apex">READY FOR NEXT NFT DROP?</h1>
+        <h1 className="font-oxanium font-bold text-[#2B2B2B] text-[64px]">
+          READY FOR NEXT NFT DROP?
+        </h1>
         <Input />
       </section>
     </div>

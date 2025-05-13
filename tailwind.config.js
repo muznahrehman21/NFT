@@ -22,6 +22,7 @@ export const theme = {
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],
       apex: ["ApexMk2", "sans-serif"],
+      oxanium: ["Oxanium", "sans-serif"],
     },
   },
 };
