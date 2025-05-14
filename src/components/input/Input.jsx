@@ -1,19 +1,23 @@
 import React from "react";
 import BorderWrapper from "../BorderWrapper";
 import Button1 from "../buttons/Button1";
-function Input({
-  placeholder = "info@gmail.com",
-  type = "email",
-  textC = "text-[#FE0101]",
-}) {
+function Input({ placeholder = "info@gmail.com", type = "email" }) {
   return (
     <BorderWrapper>
       <div className="flex justify-between items-center px-4 w-full h-full">
         <input
           type={type}
           placeholder={placeholder}
-          className={`flex-1 font-roboto text-[20px] font-medium outline-none bg-transparent ${textC} placeholder:${textC}`}
+          className="flex-1 bg-transparent outline-none font-roboto font-medium text-[#FE0101] text-[20px]"
+          style={{
+            color: "#FE0101",
+            "::placeholder": {
+              color: "#FE0101",
+              opacity: 0.7,
+            },
+          }}
         />
+
         <button
           type="submit"
           className="flex justify-center items-center rounded-[15px] w-[88px] h-[76px]"
