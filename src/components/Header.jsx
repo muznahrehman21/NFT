@@ -46,6 +46,7 @@ export default function Header() {
             textcolor="text-[#FFFFFF] "
             bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
             borderG={false}
+            radius="rounded-[15px]"
           />
           <Button1 Btn="Create NFT" />
         </div>
