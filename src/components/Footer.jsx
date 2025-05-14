@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-15 p-7">
-            <div className="max-w-90 font-roboto font-bold text-[20px] text-white text-base leading-relaxed">
+            <div className="max-w-95 font-roboto font-bold text-[20px] text-white text-base leading-relaxed">
               NFT ALGO is the world's leading NFTs marketplace where you can
               discover, sell and bid NFTs and get rich.
             </div>
