@@ -23,7 +23,9 @@ function Input({
             background:
               "linear-gradient(317.62deg, #FD0000 26.88%, #FF9292 105.85%)",
           }}
-        ></button>
+        >
+          <img src="/Vector.svg" alt="send" className="w-8 h-8" />
+        </button>
       </div>
     </BorderWrapper>
   );
