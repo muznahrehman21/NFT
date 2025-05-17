@@ -9,6 +9,8 @@ function Button1({
   borderG = true,
   height = "h-[58px]",
   radius = "rounded-[8px]",
+  textsize = "text-[21px]",
+  borderC = "",
 }) {
   return borderG ? (
     <div className="inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] rounded-[8px] w-[213px] h-[58px]">
@@ -18,7 +20,7 @@ function Button1({
     </div>
   ) : (
     <button
-      className={`${bg} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold text-[21px] leading-none ${textcolor} ${width}`}
+      className={`${bg} justify-center items-center flex ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize}  leading-none ${textcolor} ${width}`}
     >
       {children || Btn}
     </button>
