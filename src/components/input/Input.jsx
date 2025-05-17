@@ -1,6 +1,6 @@
 import React from "react";
 import BorderWrapper from "../BorderWrapper";
-import Button1 from "../buttons/Button1";
+
 function Input({ placeholder = "info@gmail.com", type = "email" }) {
   return (
     <BorderWrapper>
