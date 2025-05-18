@@ -4,7 +4,7 @@ import Button1 from "../buttons/Button1";
 function Card() {
   return (
     <div
-      className="relative flex flex-col justify-center items-center bg-no-repeat bg-center shadow-gray-600 shadow-lg px-4 py-4 rounded-lg w-[308px] text-center"
+      className="relative flex flex-col justify-center items-center bg-no-repeat bg-center px-4 py-4 rounded-lg w-[308px] text-center"
       style={{
         backgroundImage: "url('/card.png')",
       }}
