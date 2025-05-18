@@ -15,7 +15,6 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/second" element={<SecondPage />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
