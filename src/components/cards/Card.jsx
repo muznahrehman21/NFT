@@ -7,13 +7,10 @@ function Card() {
       className="relative flex flex-col justify-center items-center bg-no-repeat bg-center shadow-gray-600 shadow-lg px-4 py-4 rounded-lg w-[308px] text-center"
       style={{
         backgroundImage: "url('/card.png')",
-        backgroundSize: "100% 100%",
-
-        height: "410px",
       }}
     >
       {/* card content  */}
-      <div className="top-13 relative flex flex-row items-center mb-4 w-full">
+      <div className="top-14 relative flex flex-row items-center mb-4 w-full">
         <div className="shadow-none ml-2 rounded-full w-[53.18px] h-[53.18px]">
           <img
             src="/avatar.jpg"
@@ -30,10 +27,10 @@ function Card() {
           </p>
         </div>
       </div>
-      <div className="top-11 relative w-73">
+      <div className="top-15 relative w-73">
         <img src="/C1.png" alt="C1" className="w-full h-full" />
       </div>
-      <div className="right-5 bottom-7 relative flex justify-between items-center p-6 w-full tracking-tight">
+      <div className="right-5 bottom-4 relative flex justify-between items-center p-6 w-full tracking-tight">
         <Button1
           Btn="Buy"
           width="w-[56px]"
