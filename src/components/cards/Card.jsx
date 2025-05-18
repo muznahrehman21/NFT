@@ -1,19 +1,17 @@
 import React from "react";
 import Button1 from "../buttons/Button1";
 
-function Card() {
+function Card({ buy = true, avatar = "/avatar.jpg" }) {
   return (
     <div
       className="relative flex flex-col justify-center items-center bg-no-repeat bg-center shadow-lg px-4 py-4 rounded-lg w-[308px] h-103 text-center"
-      style={{
-        backgroundImage: "url('/card.png')",
-      }}
+      style={{ backgroundImage: "url('/card.png')" }}
     >
-      {/* card content  */}
+      {/* card content */}
       <div className="top-13 relative flex flex-row items-center mb-4 w-full">
         <div className="shadow-none ml-2 rounded-full w-[53.18px] h-[53.18px]">
           <img
-            src="/avatar.jpg"
+            src={avatar}
             alt="Avatar"
             className="rounded-full w-full h-full object-cover"
           />
@@ -27,21 +25,27 @@ function Card() {
           </p>
         </div>
       </div>
+
       <div className="top-12 relative w-73">
         <img src="/C1.png" alt="C1" className="w-full h-full" />
       </div>
+
       <div className="right-5 bottom-7 relative flex justify-between items-center p-6 w-full tracking-tight">
-        <Button1
-          Btn="Buy"
-          width="w-[56px]"
-          height="h-[36px]"
-          textcolor="text-white"
-          textsize="text-[12px]"
-          bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
-          borderG={false}
-          radius="rounded-[8px]"
-          borderC="border-none"
-        />
+        {buy ? (
+          <Button1
+            Btn="Buy"
+            width="w-[56px]"
+            height="h-[36px]"
+            textcolor="text-white"
+            textsize="text-[12px]"
+            bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
+            borderG={false}
+            radius="rounded-[8px]"
+            borderC="border-none"
+          />
+        ) : (
+          <p>hi</p>
+        )}
         <p className="left-11 relative flex items-center gap-1 bg-white px-4 py-3 rounded-[9.41px] w-31 h-9 font-roboto font-medium text-[#2B2B2B]">
           Price:
           <img
