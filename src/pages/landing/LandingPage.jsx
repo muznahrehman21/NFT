@@ -4,6 +4,7 @@ import Hero from "../../components/hero/Hero";
 import FeaturedCollection from "../../components/FeaturedCollection";
 import Footer from "../../components/Footer";
 import TrendingNFT from "../../components/TrendingNFT";
+import Topseller from "../../components/Topseller";
 
 export default function LandingPage() {
   return (
@@ -12,8 +13,9 @@ export default function LandingPage() {
       <div className="flex flex-col items-center gap-55">
         <FeaturedCollection />
         <TrendingNFT />
-        <Footer />
       </div>
+      <Topseller />
+      <Footer />
     </>
   );
 }
