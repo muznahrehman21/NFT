@@ -4,7 +4,7 @@ import Card from "./cards/Card";
 
 function TrendingNFT() {
   return (
-    <div className="flex flex-col gap-8 w-[1318px] h-[984px]">
+    <div className="flex flex-col gap-9 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TRENDING NFT'S
@@ -17,7 +17,7 @@ function TrendingNFT() {
           textsize="18 px"
         ></Button1>
       </div>
-      <div className="flex flex-col gap-7">
+      <div className="flex flex-col gap-12">
         <div className="flex flex-row gap-7">
           <Card avatar="/C5.png" />
           <Card avatar="/C6.png" />
