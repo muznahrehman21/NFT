@@ -8,8 +8,10 @@ export default function LandingPage() {
   return (
     <>
       <Hero />
-      <FeaturedCollection />
-      <Footer />
+      <div className="flex flex-col items-center gap-35">
+        <FeaturedCollection />
+        <Footer />
+      </div>
     </>
   );
 }
