@@ -13,7 +13,18 @@ function Topseller() {
           View All
         </button>
       </div>
-      <JacobJones />
+      <div className="flex flex-row gap-25">
+        <JacobJones />
+        <JacobJones seller="/seller2.png" />
+        <JacobJones seller="/seller3.png" />
+        <JacobJones seller="/seller4.png" />
+      </div>
+      <div className="flex flex-row gap-25">
+        <JacobJones seller="/seller5.png" />
+        <JacobJones seller="/seller6.png" />
+        <JacobJones seller="/seller7.png" />
+        <JacobJones seller="/seller8.png" />
+      </div>
     </div>
   );
 }

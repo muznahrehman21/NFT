@@ -10,11 +10,12 @@ export default function LandingPage() {
   return (
     <>
       <Hero />
-      <div className="flex flex-col items-center gap-55">
+      <div className="flex flex-col items-center gap-66">
         <FeaturedCollection />
         <TrendingNFT />
+        <Topseller />
       </div>
-      <Topseller />
+
       <Footer />
     </>
   );
