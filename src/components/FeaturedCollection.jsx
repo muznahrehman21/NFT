@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./cards/Card";
+import Diamondbutton from "./buttons/Diamondbutton";
 1;
 function FeaturedCollection() {
   return (
@@ -12,8 +13,12 @@ function FeaturedCollection() {
           Explore our exclusive featured collection, showcasing innovative
           campaigns and creative storytelling from top brands around the world.
         </p>
+        <div className="flex flex-row justify-end items-center gap-5">
+          <Diamondbutton icon="/l.png" />
+          <Diamondbutton />
+        </div>
       </div>
-      <div className="flex flex-row justify-between items-center gap-5 bg-amber-500 mt-6">
+      <div className="flex flex-row justify-between items-center gap-5 mt-4">
         <Card />
         <Card avatar="/C2.png" />
         <Card avatar="/C3.png" />
