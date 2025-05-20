@@ -5,6 +5,7 @@ import FeaturedCollection from "../../components/FeaturedCollection";
 import Footer from "../../components/Footer";
 import TrendingNFT from "../../components/TrendingNFT";
 import Topseller from "../../components/Topseller";
+import RecentlySold from "../../components/RecentlySold";
 
 export default function LandingPage() {
   return (
@@ -17,6 +18,9 @@ export default function LandingPage() {
         </div>
         <div className="mt-16">
           <Topseller />
+        </div>
+        <div className="mt-16">
+          <RecentlySold />
         </div>
         <div className="mt-16">
           <Footer />
