@@ -9,10 +9,13 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#FFF9F9]">
       <Router>
+        <Header />
+        {/* Define your routes here */}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/second" element={<SecondPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

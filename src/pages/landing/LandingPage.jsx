@@ -12,7 +12,6 @@ import Auction from "../../components/Auction";
 export default function LandingPage() {
   return (
     <>
-      <Header />
       <Hero />
       <div className="flex flex-col items-center">
         <FeaturedCollection />
@@ -27,9 +26,6 @@ export default function LandingPage() {
         </div>
         <div className="mt-16">
           <RecentlySold />
-        </div>
-        <div className="mt-16">
-          <Footer />
         </div>
       </div>
     </>
