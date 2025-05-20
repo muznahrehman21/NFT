@@ -7,6 +7,7 @@ import TrendingNFT from "../../components/TrendingNFT";
 import Topseller from "../../components/Topseller";
 import RecentlySold from "../../components/RecentlySold";
 import Header from "../../components/Header";
+import Auction from "../../components/Auction";
 
 export default function LandingPage() {
   return (
@@ -20,6 +21,9 @@ export default function LandingPage() {
         </div>
         <div className="mt-16">
           <Topseller />
+        </div>
+        <div className="mt-16">
+          <Auction />
         </div>
         <div className="mt-16">
           <RecentlySold />
