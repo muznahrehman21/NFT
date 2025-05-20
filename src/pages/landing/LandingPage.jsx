@@ -10,13 +10,18 @@ export default function LandingPage() {
   return (
     <>
       <Hero />
-      <div className="flex flex-col items-center gap-66">
+      <div className="flex flex-col items-center">
         <FeaturedCollection />
-        <TrendingNFT />
-        <Topseller />
+        <div className="mt-48">
+          <TrendingNFT />
+        </div>
+        <div className="mt-16">
+          <Topseller />
+        </div>
+        <div className="mt-16">
+          <Footer />
+        </div>
       </div>
-
-      <Footer />
     </>
   );
 }
