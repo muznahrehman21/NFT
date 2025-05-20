@@ -12,16 +12,16 @@ function RecentlySold() {
       </div>
       <div className="flex flex-col gap-7">
         <div className="flex flex-row gap-7">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card avatar="/sold1.png" />
+          <Card avatar="/sold2.png" />
+          <Card avatar="/sold3.png" />
+          <Card avatar="/sold4.png" />
         </div>
         <div className="flex flex-row gap-7">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card avatar="/sold5.png" />
+          <Card avatar="/sold6.png" />
+          <Card avatar="/sold7.png" />
+          <Card avatar="/sold8.png" />
         </div>
       </div>
     </div>

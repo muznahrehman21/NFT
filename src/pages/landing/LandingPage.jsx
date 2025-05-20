@@ -6,10 +6,12 @@ import Footer from "../../components/Footer";
 import TrendingNFT from "../../components/TrendingNFT";
 import Topseller from "../../components/Topseller";
 import RecentlySold from "../../components/RecentlySold";
+import Header from "../../components/Header";
 
 export default function LandingPage() {
   return (
     <>
+      <Header />
       <Hero />
       <div className="flex flex-col items-center">
         <FeaturedCollection />
