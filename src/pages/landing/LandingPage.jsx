@@ -9,6 +9,7 @@ import RecentlySold from "../../components/RecentlySold";
 import Header from "../../components/Header";
 import Auction from "../../components/Auction";
 import TopCollections from "../../components/TopCollections";
+import Imagination from "../../components/Imagination";
 
 export default function LandingPage() {
   return (
@@ -30,6 +31,9 @@ export default function LandingPage() {
         </div>
         <div className="mt-30">
           <RecentlySold />
+        </div>
+        <div className="mt-30">
+          <Imagination />
         </div>
       </div>
     </>
