@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./cards/Card";
+import Button1 from "./buttons/Button1";
 function Auction() {
   return (
     <div className="flex flex-col gap-7 w-[1318px] h-[984px]">
@@ -51,6 +52,19 @@ function Auction() {
             countdown="3 : 06 : 59 : 18"
           />
         </div>
+      </div>
+      <div className="flex flex-row justify-center items-center gap-5 mt-4">
+        <Button1
+          Btn="Explore More"
+          borderG={false}
+          width="w-[228px]"
+          height="h-[58px] "
+          bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
+          textcolor="text-[#FFFFFF]"
+          textsize="text-[22px]"
+          src={"/doublearrow.png"}
+          showIcon={true}
+        />
       </div>
     </div>
   );

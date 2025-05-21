@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./cards/Card";
 import Diamondbutton from "./buttons/Diamondbutton";
-1;
+
 function FeaturedCollection() {
   return (
     <div className="p-6 w-[1316px] h-[513px]">

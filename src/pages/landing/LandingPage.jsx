@@ -24,7 +24,7 @@ export default function LandingPage() {
         <div className="mt-16">
           <Auction />
         </div>
-        <div className="mt-16">
+        <div className="mt-30">
           <RecentlySold />
         </div>
       </div>

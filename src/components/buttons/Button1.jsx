@@ -11,18 +11,38 @@ function Button1({
   radius = "rounded-[8px]",
   textsize = "text-[21px]",
   borderC = "",
+  src = null,
+
+  showIcon = false,
 }) {
+  const content = (
+    <div className="flex justify-center items-center gap-1">
+      <span>{Btn}</span>
+      {showIcon && (
+        <img
+          src={src}
+          alt="arrow icon"
+          className="w-[23px] h-[23px] object-contain"
+        />
+      )}
+    </div>
+  );
+
   return borderG ? (
-    <div className="inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] rounded-[8px] w-[213px] h-[58px]">
-      <button className="bg-white rounded-[6px] w-full h-full font-roboto font-semibold text-[#FE0101] text-[21px] leading-none cursor-pointer">
-        {children || Btn}
+    <div
+      className={`inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] ${radius} ${width} ${height}`}
+    >
+      <button
+        className={`bg-white ${radius} w-full h-full font-roboto font-semibold text-[#FE0101] ${textsize} leading-none cursor-pointer`}
+      >
+        {children || content}
       </button>
     </div>
   ) : (
     <button
-      className={`${bg} justify-center items-center flex ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize}  leading-none ${textcolor} ${width}`}
+      className={`${bg} flex items-center justify-center gap-2 ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize} ${textcolor} ${width}`}
     >
-      {children || Btn}
+      {children || content}
     </button>
   );
 }
