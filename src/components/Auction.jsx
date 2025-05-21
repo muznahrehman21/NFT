@@ -62,7 +62,7 @@ function Auction() {
           bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
           textcolor="text-[#FFFFFF]"
           textsize="text-[22px]"
-          src={"/doublearrow.png"}
+          src={"/DoubleArrow.svg"}
           showIcon={true}
         />
       </div>

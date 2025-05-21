@@ -14,7 +14,9 @@ function TrendingNFT() {
           height="h-[52px]"
           Btn="Last 30 minutes"
           textcolor="#FE0101"
-          textsize="18 px"
+          textsize="text-[18px]"
+          showIcon={true}
+          src="/Arrow.svg"
         ></Button1>
       </div>
       <div className="flex flex-col gap-12">

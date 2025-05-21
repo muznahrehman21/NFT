@@ -16,13 +16,13 @@ function Button1({
   showIcon = false,
 }) {
   const content = (
-    <div className="flex justify-center items-center gap-1">
+    <div className="flex justify-center items-center gap-2">
       <span>{Btn}</span>
       {showIcon && (
         <img
           src={src}
           alt="arrow icon"
-          className="w-[23px] h-[23px] object-contain"
+          className="w-[16px] h-[16px] object-contain"
         />
       )}
     </div>
@@ -40,7 +40,7 @@ function Button1({
     </div>
   ) : (
     <button
-      className={`${bg} flex items-center justify-center gap-2 ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize} ${textcolor} ${width}`}
+      className={`${bg}  flex items-center justify-center gap-2 ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize} ${textcolor} ${width}`}
     >
       {children || content}
     </button>
