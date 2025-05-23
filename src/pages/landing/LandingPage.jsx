@@ -32,7 +32,7 @@ export default function LandingPage() {
         <div className="mt-30">
           <RecentlySold />
         </div>
-        <div className="mt-30">
+        <div className="mt-16">
           <Imagination />
         </div>
       </div>
