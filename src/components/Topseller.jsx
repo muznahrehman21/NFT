@@ -3,23 +3,25 @@ import JacobJones from "./JacobJones";
 
 function Topseller() {
   return (
-    <div className="flex flex-col gap-8 w-[1321px]">
-      <div className="flex justify-between items-center">
+    <div className="z-10 relative flex flex-col gap-8 w-[1321px]">
+      <div className="z-10 flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TOP SELLER
         </h1>
+        <img src="/d9.png" alt="" className="top-10 -left-94 z-0 absolute" />
+        <img src="d10.png" alt="" className="-right-99 absolute" />
         <button className="font-roboto font-medium text-[#FE0101] text-xl">
           {" "}
           View All
         </button>
       </div>
-      <div className="flex flex-row gap-25">
+      <div className="z-10 flex flex-row gap-25">
         <JacobJones />
         <JacobJones seller="/seller2.png" />
         <JacobJones seller="/seller3.png" />
         <JacobJones seller="/seller4.png" />
       </div>
-      <div className="flex flex-row gap-25">
+      <div className="z-10 flex flex-row gap-25">
         <JacobJones seller="/seller5.png" />
         <JacobJones seller="/seller6.png" />
         <JacobJones seller="/seller7.png" />

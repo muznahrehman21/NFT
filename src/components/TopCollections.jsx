@@ -8,6 +8,7 @@ function TopCollections() {
           TOP COLLECTIONS
         </h1>
         <img src="/d5.svg" alt="" className="top-45 -right-99 absolute" />
+        <img src="/d6.png" alt="" className="-left-99 absolute" />
         <div>
           <a href="" className="font-medium text-[#FE0101] text-[22px]">
             View More Collection

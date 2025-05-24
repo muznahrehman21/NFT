@@ -3,11 +3,14 @@ import Card from "./cards/Card";
 import Button1 from "./buttons/Button1";
 function Auction() {
   return (
-    <div className="flex flex-col gap-7 w-[1318px] h-[984px]">
+    <div className="relative flex flex-col gap-10 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl"> AUCTION</h1>{" "}
       </div>
-      <div className="flex flex-col gap-7">
+      <img src="/d7.png" alt="" className="-right-90 bottom-25 absolute" />
+      <img src="/d8.png" alt="" className="absolute" />
+
+      <div className="flex flex-col gap-13">
         <div className="flex flex-row gap-7">
           <Card
             avatar="/auction1.png"
