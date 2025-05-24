@@ -14,9 +14,7 @@ function TopArt({
 }) {
   return (
     <div className="flex flex-col justify-center items-center bg-white p-4 border-[#E7E7E7] border-[2.8px] w-[417px]">
-      {/* Gray box with images */}
       <div className="bg-[#E7E7E7] mb-2 rounded-2xl">
-        {/* Top grid of 2 big images */}
         <div className="gap-4 grid grid-cols-2 p-4">
           <img
             src={A1}
@@ -30,7 +28,6 @@ function TopArt({
           />
         </div>
 
-        {/* Bottom grid of 4 small images */}
         <div className="gap-4 grid grid-cols-4 px-4 pb-4">
           <img
             src={A3}
