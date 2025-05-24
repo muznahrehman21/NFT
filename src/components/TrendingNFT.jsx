@@ -4,11 +4,12 @@ import Card from "./cards/Card";
 
 function TrendingNFT() {
   return (
-    <div className="flex flex-col gap-9 w-[1318px] h-[984px]">
+    <div className="relative flex flex-col gap-9 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TRENDING NFT'S
         </h1>
+        <img src="/d12.png" alt="" className="-left-99 absolute" />
         <Button1
           width="w-[300px]"
           height="h-[52px]"
@@ -19,6 +20,7 @@ function TrendingNFT() {
           src="/Arrow.svg"
         ></Button1>
       </div>
+
       <div className="flex flex-col gap-12">
         <div className="flex flex-row gap-7">
           <Card avatar="/C5.png" />
