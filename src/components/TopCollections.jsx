@@ -2,11 +2,12 @@ import React from "react";
 import TopArt from "./TopArt";
 function TopCollections() {
   return (
-    <div className="w-[1319px]">
+    <div className="relative w-[1319px]">
       <div className="flex flex-row justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TOP COLLECTIONS
         </h1>
+        <img src="/d5.svg" alt="" className="top-45 -right-99 absolute" />
         <div>
           <a href="" className="font-medium text-[#FE0101] text-[22px]">
             View More Collection

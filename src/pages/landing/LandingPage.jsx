@@ -29,7 +29,7 @@ export default function LandingPage() {
         <div className="mt-30">
           <TopCollections />
         </div>
-        <div className="mt-30">
+        <div className="mt-60">
           <RecentlySold />
         </div>
         <div className="mt-16">

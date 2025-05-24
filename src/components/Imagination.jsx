@@ -4,12 +4,12 @@ import Button1 from "./buttons/Button1";
 function Imagination() {
   return (
     <div className="top-0 flex flex-col items-center gap-7 py-12 w-[1320px] h-[931px]">
-      <h1 className="w-3xl font-apex font-sans font-normal text-black text-6xl text-center uppercase">
+      <h1 className="w-3xl font-apex font-apex font-normal text-black text-6xl text-center uppercase">
         Turn Your Imagination Into Digital Asset
       </h1>
 
       <div className="relative flex justify-center items-center w-full h-full">
-        <div className="z-10 absolute flex justify-center items-center w-[737px] h-[70px]">
+        <div className="z-10 absolute flex justify-center items-center w-[737px] h-[70px] font-roboto">
           <input
             type="text"
             placeholder="Fantasy Creature holding a sword..."
@@ -35,6 +35,11 @@ function Imagination() {
           src="/design2.svg"
           alt=""
           className="top-100 -right-65 absolute flex"
+        />
+        <img
+          src="/design3.svg"
+          alt=""
+          className="bottom-80 -left-55 absolute flex"
         />
         <img
           src="/im1.png"

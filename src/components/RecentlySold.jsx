@@ -3,13 +3,14 @@ import Card from "./cards/Card";
 
 function RecentlySold() {
   return (
-    <div className="flex flex-col gap-7 w-[1318px] h-[984px]">
+    <div className="relative flex flex-col gap-7 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           {" "}
           RECENTLY SOLD
         </h1>{" "}
       </div>
+      <img src="/d4.svg" alt="" className="-right-100 absolute" />
       <div className="flex flex-col gap-7">
         <div className="flex flex-row gap-7">
           <Card avatar="/sold1.png" />
