@@ -4,7 +4,7 @@ import Diamondbutton from "./buttons/Diamondbutton";
 
 function FeaturedCollection() {
   return (
-    <div className="p-6 w-[1316px] h-[513px]">
+    <div className="relative p-6 w-[1316px] h-[513px]">
       <div className="">
         <h1 className="font-apex font-normal text-[#000000] text-[64px]">
           FEATURED COLLECTION
@@ -13,6 +13,7 @@ function FeaturedCollection() {
           Explore our exclusive featured collection, showcasing innovative
           campaigns and creative storytelling from top brands around the world.
         </p>
+        <img src="/d11.svg" alt="" className="top-70 -right-80 absolute" />
         <div className="flex flex-row justify-end items-center gap-5">
           <Diamondbutton icon="/l.png" />
           <Diamondbutton />
