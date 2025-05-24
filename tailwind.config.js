@@ -1,6 +1,8 @@
-// tailwind.config.js
+// tailwind.config.mjs
+
 export const content = ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"];
 export const safelist = [
+  "font-apex",
   "text-[#FE0101]",
   "text-[#FFFFFF]",
   "bg-gradient-to-b",
@@ -21,7 +23,7 @@ export const theme = {
     },
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],
-      apex: ["ApexMk2", "sans-serif"],
+      apex: ["Apex Mk2", "sans-serif"],
       oxanium: ["Oxanium", "sans-serif"],
     },
   },
