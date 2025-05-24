@@ -32,6 +32,11 @@ function Imagination() {
 
         <img src="/design.png" alt="" className="top-20 absolute" />
         <img
+          src="/design2.svg"
+          alt=""
+          className="top-100 -right-65 absolute flex"
+        />
+        <img
           src="/im1.png"
           alt=""
           className="top-8 left-20 absolute rounded-lg w-[120px] h-[110px]"
