@@ -33,6 +33,9 @@ function Boost() {
       </div>
       <div className="relative flex justify-end w-[554px]">
         <img src="/z.png" alt=" " className="bottom-13 left-21 absolute" />
+        <img src="/boost.svg" alt="" className="bottom-80 left-21 absolute" />
+        <img src="/Boost2.svg" alt="" className="top-66 -right-8 absolute" />
+        <img src="/Boost3.svg" alt="" className="bottom-13 left-30 absolute" />
       </div>
     </div>
   );
