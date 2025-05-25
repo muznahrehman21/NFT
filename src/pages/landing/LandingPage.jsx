@@ -38,7 +38,7 @@ export default function LandingPage() {
         <div className="mt-30">
           <Imagination />
         </div>
-        <div className="mt-30">
+        <div className="mt-60">
           <Boost />
         </div>
       </div>
