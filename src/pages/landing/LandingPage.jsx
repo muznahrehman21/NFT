@@ -11,12 +11,12 @@ import Auction from "../../components/Auction";
 import TopCollections from "../../components/TopCollections";
 import Imagination from "../../components/Imagination";
 import Boost from "../../components/Boost";
-
+import FAQ from "../../components/FAQ";
 export default function LandingPage() {
   return (
     <>
       <Hero />
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col justify-center items-center">
         <div className="">
           <FeaturedCollection />
         </div>
@@ -40,6 +40,9 @@ export default function LandingPage() {
         </div>
         <div className="mt-60">
           <Boost />
+        </div>
+        <div className="mt-60">
+          <FAQ />
         </div>
       </div>
     </>
