@@ -3,7 +3,7 @@ import Card from "./cards/Card";
 
 function RecentlySold() {
   return (
-    <div className="relative flex flex-col gap-7 w-[1318px] h-[984px]">
+    <div className="relative flex flex-col justify-center gap-7 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           {" "}

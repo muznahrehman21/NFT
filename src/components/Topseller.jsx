@@ -3,7 +3,7 @@ import JacobJones from "./JacobJones";
 
 function Topseller() {
   return (
-    <div className="z-10 relative flex flex-col gap-8 w-[1321px]">
+    <div className="z-10 relative flex flex-col justify-center gap-8 w-[1321px]">
       <div className="z-10 flex justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TOP SELLER

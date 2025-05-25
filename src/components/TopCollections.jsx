@@ -2,7 +2,7 @@ import React from "react";
 import TopArt from "./TopArt";
 function TopCollections() {
   return (
-    <div className="relative w-[1319px]">
+    <div className="relative flex flex-col justify-center w-[1319px]">
       <div className="flex flex-row justify-between items-center">
         <h1 className="font-apex font-normal text-black text-6xl">
           TOP COLLECTIONS

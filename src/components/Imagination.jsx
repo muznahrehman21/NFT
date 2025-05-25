@@ -3,7 +3,7 @@ import Button1 from "./buttons/Button1";
 
 function Imagination() {
   return (
-    <div className="top-0 flex flex-col items-center gap-7 py-12 w-[1320px] h-[931px]">
+    <div className="top-0 flex flex-col justify-center items-center gap-7 py-12 w-[1320px] h-[931px]">
       <h1 className="w-3xl font-apex font-apex font-normal text-black text-6xl text-center uppercase">
         Turn Your Imagination Into Digital Asset
       </h1>
