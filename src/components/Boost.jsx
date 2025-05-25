@@ -9,6 +9,7 @@ function Boost() {
         <h1 className="font-apex font-normal text-[#2B2B2B] text-[64px]">
           BOOST YOUR NFTS: ENHANCE VISIBILITY AND VALUE
         </h1>
+        <img src="/a2.png" alt=" " className="-left-40 absolute" />
         <div className="flex flex-col gap-21 w-[580px]">
           <p className="font-roboto font-light text-[#6B6B6B] text-[18px]">
             {" "}
