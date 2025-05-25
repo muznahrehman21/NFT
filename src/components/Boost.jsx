@@ -3,7 +3,7 @@ import Button1 from "./buttons/Button1";
 import Card from "../components/cards/Card";
 function Boost() {
   return (
-    <div className="relative flex w-[1320px] h-[611px]">
+    <div className="relative flex justify-center w-[1320px] h-[611px]">
       <div className="flex flex-col w-[632px]">
         {" "}
         <h1 className="font-apex font-normal text-[#2B2B2B] text-[64px]">
