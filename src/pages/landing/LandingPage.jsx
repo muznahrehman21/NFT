@@ -12,12 +12,16 @@ import TopCollections from "../../components/TopCollections";
 import Imagination from "../../components/Imagination";
 import Boost from "../../components/Boost";
 import FAQ from "../../components/FAQ";
+import AnimatedCards from "../../components/AnimatedCards";
 export default function LandingPage() {
   return (
     <>
       <div className="flex flex-col justify-center items-center">
         <Hero />
-        <div className="">
+        <div className="mt-30">
+          <AnimatedCards />
+        </div>
+        <div className="mt-50">
           <FeaturedCollection />
         </div>
         <div className="mt-80">
