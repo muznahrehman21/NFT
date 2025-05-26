@@ -13,6 +13,7 @@ function FAQ() {
           alt=""
           className="-right-160 bottom-2 absolute"
         />{" "}
+        <img src="/a5.png" alt="" className="-left-95 absolute" />
         <div className="p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
           <div className="flex items-center gap-5 bg-[rgba(253,0,0,0.10)] p-4 rounded-[20px]">
             <img src="/minus.svg" alt="minus" className="" />
@@ -45,7 +46,7 @@ function FAQ() {
           </div>
         </div>
         <div className="p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
-          <div className="flex justify-start gap-7">
+          <div className="relative flex justify-start gap-7">
             <img src="/plus.svg" alt="" />
             <p className="mt-2 font-roboto font-semibold text-[#2B2B2B] text-xl leading-relaxed">
               What cryptocurrencies do you accept?

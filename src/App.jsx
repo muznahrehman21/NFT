@@ -15,7 +15,9 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/second" element={<SecondPage />} />
         </Routes>
-        <Footer />
+        <div className="mt-30">
+          <Footer />
+        </div>
       </Router>
     </div>
   );
