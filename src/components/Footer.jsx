@@ -7,7 +7,7 @@ export default function Footer() {
       <h1 className="font-oxanium font-extrabold text-[#2B2B2B] text-[64px] text-center">
         Ready for Next NFT Drop?
       </h1>
-      <Input />
+      <Input type="email" />
 
       <div className="relative flex flex-row justify-center items-center bg-[linear-gradient(to_right,_#FF4D4D_0%,_#FF0000_80%)] mb-6 rounded-[20px] w-[1320px] h-[358px] overflow-hidden">
         <img
