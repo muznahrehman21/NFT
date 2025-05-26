@@ -34,7 +34,7 @@ function Imagination() {
         <img
           src="/design2.svg"
           alt=""
-          className="top-100 -right-65 absolute flex"
+          className="top-100 -right-75 absolute flex"
         />
         <img
           src="/design3.svg"

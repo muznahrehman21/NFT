@@ -15,8 +15,8 @@ import FAQ from "../../components/FAQ";
 export default function LandingPage() {
   return (
     <>
-      <Hero />
       <div className="flex flex-col justify-center items-center">
+        <Hero />
         <div className="">
           <FeaturedCollection />
         </div>
