@@ -18,7 +18,7 @@ export default function LandingPage() {
     <>
       <div className="flex flex-col justify-center items-center">
         <Hero />
-        <div className="mt-30">
+        <div className="mt-0">
           <AnimatedCards />
         </div>
         <div className="mt-60">
