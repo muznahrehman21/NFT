@@ -20,7 +20,7 @@ function AnimatedCards() {
           <img src="/vt.svg" alt=" " className="top-0 absolute" />
           <img src="/vb.svg" alt=" " className="right-0 bottom-0 absolute" />
         </div>
-        <div className="top-35 left-155 z-10 absolute w-[266.67px] h-[355.31px]">
+        <div className="top-35 left-155 z-10 absolute w-[266.67px] h-[355.31px] animate-left-right">
           <img
             src="/left1.png"
             alt=""
