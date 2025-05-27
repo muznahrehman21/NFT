@@ -21,7 +21,7 @@ export default function LandingPage() {
         <div className="mt-30">
           <AnimatedCards />
         </div>
-        <div className="mt-50">
+        <div className="mt-60">
           <FeaturedCollection />
         </div>
         <div className="mt-80">
