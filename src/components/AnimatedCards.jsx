@@ -15,7 +15,7 @@ function AnimatedCards() {
           <img
             src="/main.png"
             alt=""
-            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] w-full h-full"
+            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] rounded-3xl w-full h-full"
           />
           <img src="/vt.svg" alt=" " className="top-0 absolute" />
           <img src="/vb.svg" alt=" " className="right-0 bottom-0 absolute" />
@@ -24,28 +24,29 @@ function AnimatedCards() {
           <img
             src="/left1.png"
             alt=""
-            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] w-full h-full rotate-[-4deg]"
+            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] rounded-3xl w-full h-full rotate-[-4deg]"
           />
+          .
         </div>
         <div className="top-45 left-122 z-0 absolute w-[225.69px] h-[300.71px]">
           <img
             src="/left2.png"
             alt=""
-            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] w-full h-full rotate-[-4deg]"
+            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] rounded-3xl w-full h-full rotate-[-4deg]"
           />
         </div>
         <div className="top-35 right-153 z-10 absolute w-[266.67px] h-[355.31px]">
           <img
             src="/right1.png"
             alt=""
-            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] w-full h-full rotate-[4deg]"
+            className="relative shadow-[4px_4px_15px_rgba(0,0,0,0.2)] rounded-3xl w-full h-full rotate-[4deg]"
           />
         </div>
         <div className="top-42 right-117 z-0 absolute w-[225.69px] h-[300.71px]">
           <img
             src="/right2.png"
             alt=""
-            className="w-full h-full rotate-[4deg]"
+            className="shadow-[4px_4px_15px_rgba(0,0,0,0.2)] rounded-3xl w-full h-full rotate-[4deg]"
           />
         </div>
       </div>

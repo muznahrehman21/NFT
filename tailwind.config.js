@@ -11,6 +11,17 @@ export const safelist = [
 ];
 export const theme = {
   extend: {
+    animation: {
+      up: "up 1s ease-in-out infinite",
+    },
+    keyframes: {
+      up: {
+        "0% 100%": {
+          transform: "translateY(0)",
+        },
+        "50%": { transform: "translateY(-20px)" },
+      },
+    },
     colors: {
       bg: "#FFF9F9",
       btn1: "#FD0000",
