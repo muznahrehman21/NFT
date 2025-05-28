@@ -12,8 +12,9 @@ function Button1({
   textsize = "text-[21px]",
   borderC = "",
   src = null,
+  onClick = () => {},
   showIcon = false,
-  className = "", // <- add this line
+  className = "",
 }) {
   const content = (
     <div className="flex justify-center items-center gap-2">
@@ -34,6 +35,7 @@ function Button1({
     >
       <button
         className={`bg-white ${radius} w-full h-full font-roboto font-semibold text-[#FE0101] ${textsize} leading-none cursor-pointer`}
+        onClick={onClick}
       >
         {children || content}
       </button>
@@ -41,6 +43,7 @@ function Button1({
   ) : (
     <button
       className={`${bg} flex items-center justify-center gap-2 ${borderC} px-8 py-4 border-[1.8px] ${radius} ${height} cursor-pointer font-roboto font-semibold ${textsize} ${textcolor} ${width} ${className}`}
+      onClick={onClick}
     >
       {children || content}
     </button>

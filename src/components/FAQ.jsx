@@ -30,7 +30,7 @@ function FAQ() {
           </p>
         </div>
         <div className="p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
-          <div className="flex justify-start gap-7">
+          <div className="flex justify-start items-center gap-7">
             <img src="/plus.svg" alt="" />
             <p className="mt-2 font-roboto font-semibold text-[#2B2B2B] text-xl leading-relaxed">
               How do I buy an NFT?
@@ -38,15 +38,15 @@ function FAQ() {
           </div>
         </div>
         <div className="p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
-          <div className="flex justify-start gap-7">
+          <div className="flex justify-start items-center gap-7">
             <img src="/plus.svg" alt="" />
             <p className="mt-2 font-roboto font-semibold text-[#2B2B2B] text-xl leading-relaxed">
               How do I sell an NFT?
             </p>
           </div>
         </div>
-        <div className="p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
-          <div className="relative flex justify-start gap-7">
+        <div className="flex items-center p-4 border-[#E7E7E7] border-[2.8px] rounded-[20px]">
+          <div className="relative flex justify-start items-center gap-7">
             <img src="/plus.svg" alt="" />
             <p className="mt-2 font-roboto font-semibold text-[#2B2B2B] text-xl leading-relaxed">
               What cryptocurrencies do you accept?

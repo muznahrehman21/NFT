@@ -1,7 +1,9 @@
 import React from "react";
 import Card from "./cards/Card";
 import Button1 from "./buttons/Button1";
+import { useNavigate } from "react-router-dom";
 function Auction() {
+  const navigate = useNavigate();
   return (
     <div className="relative flex flex-col justify-center gap-10 w-[1318px] h-[984px]">
       <div className="flex justify-between items-center">
@@ -67,6 +69,10 @@ function Auction() {
           textsize="text-[22px]"
           src={"/DoubleArrow.svg"}
           showIcon={true}
+          onClick={() => {
+            navigate("/auctionpage");
+            console.log("working");
+          }}
         />
       </div>
     </div>

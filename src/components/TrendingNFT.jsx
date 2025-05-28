@@ -25,7 +25,7 @@ function TrendingNFT() {
         <div className="flex flex-row gap-7">
           <Card avatar="/C5.png" />
           <Card avatar="/C6.png" />
-          <Card avatar="/C7.png" />
+          <Card avatar="/C7.png " />
           <Card avatar="/C8.png" />
         </div>
         <div className="flex flex-row gap-7">
