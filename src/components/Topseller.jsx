@@ -10,10 +10,14 @@ function Topseller() {
         </h1>
         <img src="/d9.png" alt="" className="top-10 -left-94 z-0 absolute" />
         <img src="d10.png" alt="" className="-right-99 absolute" />
-        <button className="font-roboto font-medium text-[#FE0101] text-xl">
-          {" "}
-          View All
-        </button>
+        <div>
+          <a
+            href=""
+            className="font-roboto font-medium text-[#FE0101] text-xl cursor-pointer"
+          >
+            View All
+          </a>
+        </div>
       </div>
       <div className="z-10 flex flex-row gap-25">
         <JacobJones />
