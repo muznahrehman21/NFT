@@ -28,7 +28,7 @@ function Card({ avatar = "/C1.png", showButton = true, countdown = null }) {
 
       {/* Main Image */}
       <div className="top-12 relative w-73">
-        <img src={avatar} alt="C1" className="w-full h-full" />
+        <img src={avatar} alt="C1" className="rounded-2xl w-full h-full" />
         {countdown && (
           <div className="z-20 absolute inset-0 flex justify-center items-center">
             <div className="bg-white/80 px-4 py-2 rounded-lg font-semibold text-black">
