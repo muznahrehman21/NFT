@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LandingPage from "./pages/landing/LandingPage";
 import SecondPage from "./pages/second/SecondPage";
-import AuctionPage from "./components/AuctionPage";
+import AuctionPage from "./pages/AuctionPage";
 
 function App() {
   return (
