@@ -58,7 +58,7 @@ function Auction() {
           />
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center gap-5 mt-4">
+      <div className="z-20 flex flex-row justify-center items-center gap-5 mt-4">
         <Button1
           Btn="Explore More"
           borderG={false}
