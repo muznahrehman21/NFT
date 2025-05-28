@@ -71,7 +71,6 @@ function Auction() {
           showIcon={true}
           onClick={() => {
             navigate("/auctionpage");
-            console.log("working");
           }}
         />
       </div>
