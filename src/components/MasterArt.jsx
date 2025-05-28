@@ -13,7 +13,7 @@ function MasterArt() {
       <img
         src="/redsemi.png"
         alt=""
-        className="bottom-4 left-35 z-20 absolute"
+        className="bottom-3 left-35 z-30 absolute"
       />
       <img src="/master4.png" alt="" className="right-75 absolute" />
       <img src="/master5.png" alt="" className="top-23 right-0 absolute" />
