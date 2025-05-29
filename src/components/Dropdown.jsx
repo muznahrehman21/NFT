@@ -9,14 +9,13 @@ export default function Dropdown({ selected, setSelected }) {
   ];
 
   return (
-    <div className="relative w-[220px] h-14">
+    <div className="relative w-[250px] h-14">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-between items-center bg-white px-10 py-2 border-[#E7E7E7] border-[2.8px] rounded-[15px] w-full text-[#808080] text-[16px]"
+        className="flex justify-center items-center gap-3 bg-white px-8 py-2 border-[#E7E7E7] border-[2.8px] rounded-[15px] w-full text-[#808080] text-[16px]"
       >
         {selected}
 
-        {/* Flip-style animation using scaleY */}
         <img
           src="/arrowdown.svg"
           alt="arrow"

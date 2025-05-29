@@ -2,6 +2,8 @@ import Input from "./input/Input";
 import Button1 from "./buttons/Button1";
 import Dropdown from "./Dropdown";
 import { useState } from "react";
+import Supply from "./Supply";
+import AddStyles from "./AddStyles";
 
 function InputMaster() {
   const [selected, setSelected] = useState("Single NFT");
@@ -27,8 +29,10 @@ function InputMaster() {
           className="top-1/2 right-2 absolute flex justify-center items-center -translate-y-1/2 transform"
         />
       </div>
-      <div className="flex justify-center mt-50">
+      <div className="flex justify-between gap-15 mt-50">
         <Dropdown selected={selected} setSelected={setSelected} />
+        <Supply />
+        <AddStyles />
       </div>
     </div>
   );
