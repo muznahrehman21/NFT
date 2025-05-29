@@ -8,7 +8,7 @@ function SecondPage() {
     <div className="flex flex-col justify-center items-center">
       <Master />
       <MasterArt />
-      <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-5">
         <InputMaster />
       </div>
     </div>
