@@ -7,6 +7,7 @@ import AddStyles from "./AddStyles";
 
 function InputMaster() {
   const [selected, setSelected] = useState("Single NFT");
+  const [counter, setCounter] = useState("1");
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="z-10 absolute flex w-[1002px] h-[70px]">
@@ -31,7 +32,7 @@ function InputMaster() {
       </div>
       <div className="flex justify-between gap-15 mt-50">
         <Dropdown selected={selected} setSelected={setSelected} />
-        <Supply />
+        <Supply counter={counter} setCounter={setCounter} />
         <AddStyles />
       </div>
     </div>
