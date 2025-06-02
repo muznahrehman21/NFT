@@ -39,4 +39,5 @@ export const theme = {
     },
   },
 };
-export const plugins = [];
+// eslint-disable-next-line no-undef
+export const plugins = [require("tailwind-scrollbar-hide")];
