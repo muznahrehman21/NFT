@@ -8,7 +8,7 @@ function PromptArt({
   return (
     <div className="flex gap-9 bg-white m-7 p-3 border-[#E7E7E7] border-[2.8px] rounded-[25px] w-[557px] h-[270px]">
       <div className="relative flex m-1 w-[310px] h-[232px]">
-        <div className="top-24 -right-6 z-10 absolute flex justify-center items-center gap-0.5 bg-[radial-gradient(circle_at_top,_#FF5B5B,_#FD0000)] border-[#FFF9F9] border-[2.9px] rounded-full w-[58px] h-[58px]">
+        <div className="top-1/2 -right-6 z-10 absolute flex justify-center items-center gap-0.5 bg-[radial-gradient(circle_at_top,_#FF5B5B,_#FD0000)] shadow-md border-[#FFF9F9] border-[2.9px] rounded-full w-[58px] h-[58px] -translate-y-1/2">
           <p className="font-roboto font-normal text-white text-xs">Copy</p>
           <img src="/Copy.svg" alt="copy" className="w-[18px] h-[18px]" />
         </div>
