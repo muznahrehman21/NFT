@@ -1,8 +1,9 @@
 import React from "react";
 import Master from "../../components/Master";
 import MasterArt from "../../components/MasterArt";
-import InputMaster from "../../components/inputmaster";
+
 import Prompt from "../../components/Prompt";
+import InputMaster from "../../components/InputMaster";
 
 function SecondPage() {
   return (
