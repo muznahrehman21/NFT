@@ -1,12 +1,14 @@
 import React from "react";
 import AuctionArt from "../components/AuctionArt";
 import TopListed from "../components/TopListed";
+import LiveAuction from "../components/LiveAuction";
 
 function AuctionPage() {
   return (
     <div className="flex flex-col justify-center items-center gap-20">
       <AuctionArt />
       <TopListed />
+      <LiveAuction />
     </div>
   );
 }
