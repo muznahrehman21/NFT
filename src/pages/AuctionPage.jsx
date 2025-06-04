@@ -5,7 +5,7 @@ import LiveAuction from "../components/LiveAuction";
 
 function AuctionPage() {
   return (
-    <div className="flex flex-col justify-center items-center gap-20">
+    <div className="flex flex-col gap-20">
       <AuctionArt />
       <TopListed />
       <LiveAuction />

@@ -62,7 +62,7 @@ function Auction() {
         <Button1
           Btn="Explore More"
           borderG={false}
-          width="w-[228px] "
+          width="w-[230px] "
           height="h-[58px] "
           bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
           textcolor="text-[#FFFFFF]"

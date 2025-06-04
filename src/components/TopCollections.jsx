@@ -10,7 +10,10 @@ function TopCollections() {
         <img src="/d5.svg" alt="" className="top-45 -right-99 absolute" />
         <img src="/d6.png" alt="" className="-left-99 absolute" />
         <div>
-          <a href="" className="font-medium text-[#FE0101] text-[22px]">
+          <a
+            href="/collections"
+            className="font-medium text-[#FE0101] text-[22px] cursor-pointer"
+          >
             View More Collection
           </a>
         </div>

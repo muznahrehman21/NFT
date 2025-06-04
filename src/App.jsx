@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import LandingPage from "./pages/landing/LandingPage";
 import SecondPage from "./pages/second/SecondPage";
 import AuctionPage from "./pages/AuctionPage";
+import TopSellersPage from "./pages/TopSellersPage";
+import CollectionPage from "./pages/CollectionPage";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/second" element={<SecondPage />} />
           <Route path="/auctionpage" element={<AuctionPage />} />
+          <Route path="/topsellers" element={<TopSellersPage />} />
+          <Route path="/collections" element={<CollectionPage />} />
         </Routes>
         <div className="mt-30">
           <Footer />

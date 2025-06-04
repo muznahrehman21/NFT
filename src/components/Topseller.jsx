@@ -10,9 +10,9 @@ function Topseller() {
         </h1>
         <img src="/d9.png" alt="" className="top-10 -left-94 z-0 absolute" />
         <img src="d10.png" alt="" className="-right-99 absolute" />
-        <div>
+        <div className="z-30">
           <a
-            href=""
+            href=" /topsellers"
             className="font-roboto font-medium text-[#FE0101] text-xl cursor-pointer"
           >
             View All
