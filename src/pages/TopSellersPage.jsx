@@ -1,7 +1,12 @@
 import React from "react";
+import SellerHeader from "../components/SellerHeader";
 
 function TopSellersPage() {
-  return <div>TopSellersPage</div>;
+  return (
+    <div>
+      <SellerHeader />
+    </div>
+  );
 }
 
 export default TopSellersPage;

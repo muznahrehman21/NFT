@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="flex justify-center px-[300px] pt-[25px] w-full">
-      <div className="flex justify-between items-center w-[1320px] h-[100px]">
+    <div className="flex justify-center items-center px-[300px] pt-[25px]">
+      <div className="flex justify-center items-center gap-67 w-[1480px] h-[100px]">
         <div className="flex items-center gap-2">
           {/* Logo */}
           <img src={logo} alt="logo" className="w-[99.73px] h-[100px]" />
