@@ -1,7 +1,12 @@
 import React from "react";
+import CollectionHeader from "../components/CollectionHeader";
 
 function CollectionPage() {
-  return <div>CollectionPage</div>;
+  return (
+    <div>
+      <CollectionHeader />
+    </div>
+  );
 }
 
 export default CollectionPage;
