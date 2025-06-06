@@ -3,7 +3,7 @@ import React from "react";
 function CollectionHeader() {
   return (
     <div className="flex flex-row gap-22 mt-15">
-      <div className="flex flex-col justify-center items-center w-lg">
+      <div className="flex flex-col justify-center items-center mt-15 w-lg">
         <p className="mb-[-40px] font-apex font-bold text-[#FE0101] text-[220px] leading-none">
           NFT
         </p>

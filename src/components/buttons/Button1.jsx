@@ -11,6 +11,7 @@ function Button1({
   radius = "rounded-[8px]",
   textsize = "text-[21px]",
   borderC = "",
+  fontw = " font-semibold",
   src = null,
   onClick = () => {},
   showIcon = false,
@@ -34,7 +35,7 @@ function Button1({
       className={`inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] ${radius} ${width} ${height} ${className}`}
     >
       <button
-        className={`bg-white ${radius} w-full h-full font-roboto font-semibold text-[#FE0101] ${textsize} leading-none cursor-pointer`}
+        className={`bg-white ${radius} w-full h-full font-roboto ${fontw} text-[#FE0101] ${textsize} leading-none cursor-pointer`}
         onClick={onClick}
       >
         {children || content}
