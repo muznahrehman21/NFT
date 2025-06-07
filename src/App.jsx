@@ -7,6 +7,7 @@ import SecondPage from "./pages/second/SecondPage";
 import AuctionPage from "./pages/AuctionPage";
 import TopSellersPage from "./pages/TopSellersPage";
 import CollectionPage from "./pages/CollectionPage";
+import SellerCollectionPage from "./pages/SellerCollectionPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/auctionpage" element={<AuctionPage />} />
           <Route path="/topsellers" element={<TopSellersPage />} />
           <Route path="/collections" element={<CollectionPage />} />
+          <Route path="/SellerCollections" element={<SellerCollectionPage />} />
         </Routes>
         <div className="mt-30">
           <Footer />

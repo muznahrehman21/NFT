@@ -1,12 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function CollectionArt({
   number = "1",
   amount = "100",
   img = "/collection1.svg",
 }) {
+  const Navigate = useNavigate();
   return (
-    <div className="flex flex-row items-center gap-43 bg-[#FFF9F9] p-4 border-[#E7E7E7] border-[2.8px] rounded-[8px] w-full">
+    <div
+      onClick={() => Navigate("/SellerCollections")}
+      className="flex flex-row items-center gap-43 bg-[#FFF9F9] p-4 border-[#E7E7E7] border-[2.8px] rounded-[8px] w-full cursor-pointer"
+    >
       <div className="flex flex-row items-center gap-9 w-120">
         <p className="font-roboto font-semibold text-[20.87px] text-black">
           {number}
