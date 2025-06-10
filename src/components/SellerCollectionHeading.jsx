@@ -13,6 +13,9 @@ function SellerCollectionHeading() {
         <img src="/Group1.svg" alt="" className="-top-8 absolute" />
         <img src="/Group2.svg" alt="" className="-top-20 right-0 absolute" />
         <img src="/Group3.svg" alt="" className="-top-23 absolute" />
+        <img src="/Group4.svg" alt="" className="top-49 left-1 absolute" />
+        <img src="/Group5.svg" alt="" className="top-90 left-85 absolute" />
+        <img src="/Group6.svg" alt="" className="top-78 right-25 absolute" />
       </div>
     </div>
   );
