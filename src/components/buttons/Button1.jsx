@@ -18,7 +18,7 @@ function Button1({
   className = "",
 }) {
   const content = (
-    <div className="flex justify-center items-center gap-2">
+    <div className="z-30 flex justify-center items-center gap-2">
       <span>{Btn}</span>
       {showIcon && (
         <img
@@ -35,7 +35,7 @@ function Button1({
       className={`inline-block bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] p-[2px] ${radius} ${width} ${height} ${className}`}
     >
       <button
-        className={`bg-white ${radius} w-full h-full font-roboto ${fontw} text-[#FE0101] ${textsize} leading-none cursor-pointer`}
+        className={`bg-white ${radius} w-full h-full  font-roboto ${fontw} text-[#FE0101] ${textsize} leading-none cursor-pointer`}
         onClick={onClick}
       >
         {children || content}

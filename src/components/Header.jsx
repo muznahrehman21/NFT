@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate, NavLink } from "react-router-dom";
 import logo from "../assets/logo/logo.png";
 import Button1 from "./buttons/Button1";
 
-import { NavLink } from "react-router-dom";
-
 export default function Header() {
+  const [div, setDiv] = useState(false);
+  const navigate = useNavigate();
+
   return (
     <div className="flex justify-center items-center px-[300px] pt-[25px]">
       <div className="flex justify-center items-center gap-67 w-[1480px] h-[100px]">
+        {/* Logo */}
         <div className="flex items-center gap-2">
-          {/* Logo */}
           <img src={logo} alt="logo" className="w-[99.73px] h-[100px]" />
-          <p className="font-bold text-[#FF0000]"></p>
         </div>
-        {/* Navigation Links */}
+
+        {/* Navigation */}
         <div className="flex gap-8 font-apex font-medium text-[16px] text-black">
           <NavLink
             to="/"
@@ -25,7 +27,6 @@ export default function Header() {
           >
             Home
           </NavLink>
-
           <NavLink
             to="/second"
             className={({ isActive }) =>
@@ -43,14 +44,41 @@ export default function Header() {
           <Button1
             Btn="Connect Wallet"
             width="w-[213px]"
-            textcolor="text-[#FFFFFF] "
+            textcolor="text-[#FFFFFF]"
             bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
             borderG={false}
             radius="rounded-[8px]"
+            onClick={() => setDiv(true)}
           />
-          <Button1 Btn="Create NFT" />
+
+          <Button1
+            Btn="Create NFT"
+            onClick={() => {
+              navigate("/second");
+            }}
+          />
         </div>
       </div>
+
+      {/* Modal */}
+      {div && (
+        <div className="z-20 fixed inset-0 flex justify-center items-center bg-black/40">
+          <div className="relative bg-white shadow-lg p-6 rounded-3xl w-[504px] h-[80vh] overflow-auto">
+            {/* Close Button */}
+            <button
+              onClick={() => {
+                console.log("Close clicked");
+                setDiv(false);
+              }}
+              className="top-4 right-4 absolute text-gray-600 hover:text-black"
+            >
+              <img src="/cross.svg" alt="close" className="cursor-pointer" />
+            </button>
+
+            {/* Modal Content Placeholder */}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
