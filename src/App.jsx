@@ -9,6 +9,7 @@ import TopSellersPage from "./pages/TopSellersPage";
 import CollectionPage from "./pages/CollectionPage";
 import SellerCollectionPage from "./pages/SellerCollectionPage";
 import Connect from "./pages/Connect";
+import TopCollectionDetail from "./pages/TopCollectionDetail";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#FFF9F9]">
@@ -23,6 +24,7 @@ function App() {
           <Route path="/collections" element={<CollectionPage />} />
           <Route path="/SellerCollections" element={<SellerCollectionPage />} />
           <Route path="/Connect" element={<Connect />} />
+          <Route path="/TopCollection" element={<TopCollectionDetail />} />
         </Routes>
         <div className="mt-30">
           <Footer />

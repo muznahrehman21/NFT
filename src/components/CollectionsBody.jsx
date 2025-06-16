@@ -1,7 +1,11 @@
 import React from "react";
 import CollectionWonderfullArt from "./CollectionWonderfullArt";
-
+import { useNavigate } from "react-router-dom";
 function CollectionsBody() {
+  const Navigate = useNavigate();
+  const handleClick = () => {
+    Navigate("/TopCollection");
+  };
   return (
     <div className="flex flex-col gap-5 mt-8">
       <div className="flex items-center">
@@ -9,7 +13,7 @@ function CollectionsBody() {
           Collections
         </h2>
       </div>
-      <div className="gap-4 grid grid-cols-3">
+      <div onClick={handleClick} className="gap-6 grid grid-cols-3">
         <CollectionWonderfullArt />
         <CollectionWonderfullArt IMG="/CWA1.svg" />
         <CollectionWonderfullArt IMG="/CWA2.svg" />
