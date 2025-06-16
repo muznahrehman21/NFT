@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import logo from "../assets/logo/logo.png";
 import Button1 from "./buttons/Button1";
+import Connect from "../pages/Connect";
 
 export default function Header() {
   const [div, setDiv] = useState(false);
@@ -60,11 +61,9 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Modal */}
       {div && (
-        <div className="z-20 fixed inset-0 flex justify-center items-center bg-black/40">
-          <div className="relative bg-white shadow-lg p-6 rounded-3xl w-[504px] h-[80vh] overflow-auto">
-            {/* Close Button */}
+        <div className="z-50 fixed inset-0 flex justify-center items-center bg-black/40">
+          <div className="relative bg-white shadow-lg rounded-3xl w-[425.81px] h-[520px] overflow-auto">
             <button
               onClick={() => {
                 console.log("Close clicked");
@@ -74,7 +73,7 @@ export default function Header() {
             >
               <img src="/cross.svg" alt="close" className="cursor-pointer" />
             </button>
-
+            <Connect />
             {/* Modal Content Placeholder */}
           </div>
         </div>

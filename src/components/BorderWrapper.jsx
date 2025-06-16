@@ -7,10 +7,11 @@ function BorderWrapper({
   className = "",
   radius = " rounded-[14px]",
   innerBg = "bg-transparent",
+  outerradius = "rounded-[16px]",
 }) {
   return (
     <div
-      className={`inline-flex items-center bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] rounded-[16px] p-[2px]  ${width} ${height} ${className}`}
+      className={`inline-flex items-center bg-gradient-to-r from-[#FF5F5F] to-[#FF0000] ${outerradius} p-[2px]  ${width} ${height} ${className}`}
     >
       <div
         className={`flex items-center bg-white px-4  ${innerBg}  ${radius} w-full h-full`}

@@ -1,14 +1,18 @@
+import ConnentComponent from "../components/ConnentComponent";
+
 function Connect() {
   return (
-    <div className="flex flex-col justify-center items-center bg-[#FFF9F9] h-screen">
-      <div className="flex flex-col justify-center items-center p-6 w-full max-w-4xl">
-        <h1 className="mb-6 font-bold text-3xl">Connect Your Wallet</h1>
-        <p className="mb-4 text-lg">
-          To get started, please connect your wallet.
-        </p>
-        <button className="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000] px-6 py-3 rounded-lg text-white">
-          Connect Wallet
-        </button>
+    <div className="z-90 flex flex-col justify-center items-center gap-5 bg-white w-full h-full">
+      <h1 className="font-apex font-normal text-[#2B2B2B] text-[24px]">
+        CONNECT YOUR WALLET
+      </h1>
+      <img src="/fry.svg" alt="logo" />
+      <img src="/line.svg" alt="" />
+      <div className="flex flex-col justify-center items-center gap-5">
+        <ConnentComponent />
+        <ConnentComponent icon="/s1.svg" text="Defly" />
+        <ConnentComponent icon="/s2.svg" text="Daffi" />
+        <ConnentComponent icon="/s3.svg" text="Walletconnect" />
       </div>
     </div>
   );
