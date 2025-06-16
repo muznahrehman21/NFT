@@ -5,7 +5,7 @@ import PixacioArt from "../components/PixacioArt";
 
 function TopCollectionDetail() {
   return (
-    <div>
+    <div className="flex flex-col gap-10">
       <Pixacio />
       <SearchBar />
       <PixacioArt />
