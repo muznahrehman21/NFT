@@ -8,9 +8,11 @@ function Card({
   white = false,
   price = "142.02",
   stock = 7,
+  onClick = undefined,
 }) {
   return (
     <div
+      onClick={typeof onClick === "function" ? onClick : undefined}
       className="relative flex flex-col justify-center items-center bg-no-repeat bg-center shadow-gray-400 shadow-xl px-4 py-4 rounded-lg w-[308px] h-103 text-center"
       style={{ backgroundImage: "url('/card.png')" }}
     >
