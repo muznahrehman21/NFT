@@ -1,10 +1,11 @@
 import React from "react";
 import Description from "../components/Description";
 import Traits from "../components/Traits";
+import Sale from "../components/Sale";
 
 function NftPage() {
   return (
-    <div className="flex flex-row justify-between mt-12">
+    <div className="flex flex-row justify-between gap-5 mt-12">
       {/* 1st div */}
       <div className="flex flex-col gap-7">
         {/* picture */}
@@ -16,7 +17,21 @@ function NftPage() {
         <Traits />
       </div>
       {/* 2nd div */}
-      <div className="flex flex-col bg-amber-200">dd</div>
+      <div className="flex flex-col">
+        <div className="flex flex-col">
+          <p className="font-apex font-normal text-[#2B2B2B] text-[64px]">
+            PIXACIO
+          </p>
+          <p className="font-roboto font-normal text-[#808080] text-[20px]">
+            Owned by{" "}
+            <span className="font-roboto font-normal text-[#2B2B2B] text-[20px]">
+              {" "}
+              Stella Nova
+            </span>{" "}
+          </p>
+        </div>
+        <Sale />
+      </div>
     </div>
   );
 }
