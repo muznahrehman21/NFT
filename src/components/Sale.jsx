@@ -3,7 +3,7 @@ import Button1 from "./buttons/Button1";
 
 function Sale() {
   return (
-    <div className="flex flex-col gap-4 bg-white shadow-[4px_4px_15px_0_rgba(0,0,0,0.2)] rounded-[8px] w-[754px] h-[213px]">
+    <div className="flex flex-col gap-4 bg-white shadow-[4px_4px_15px_0_rgba(0,0,0,0.2)] rounded-[8px] w-[754px] h-[228px]">
       <div className="flex flex-row items-center gap-2 p-4 border-[#E7E7E7] border-b-[2.8px] h-[63px]">
         <img src="/clock.svg" alt="clock" />
         <p className="font-roboto font-normal text-[#808080] text-[16px]">
