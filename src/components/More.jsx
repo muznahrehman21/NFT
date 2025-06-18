@@ -7,14 +7,14 @@ function More() {
         MORE FROM THIS COLLECTION
       </h1>
       <div className="gap-4 grid grid-cols-4">
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
-        <Card avatar="" />
+        <Card avatar="/more1.svg" />
+        <Card avatar="/more2.svg" />
+        <Card avatar="/m.svg" />
+        <Card avatar="/flo.svg" />
+        <Card avatar="/more5.svg" />
+        <Card avatar="/more6.svg" />
+        <Card avatar="/more7.svg" />
+        <Card avatar="/more8.svg" />
       </div>
     </div>
   );
