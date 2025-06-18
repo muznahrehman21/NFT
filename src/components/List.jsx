@@ -3,8 +3,8 @@ import React from "react";
 function List() {
   return (
     <div className="flex flex-col gap-6 w-[1300px]">
-      <div className="items-center grid grid-cols-5 border-[#E7E7E7] border-b-[1px] w-full">
-        <div className="font-roboto font-normal text-[14px] text-black">
+      <div className="grid grid-cols-5 border-[#E7E7E7] border-b-[1px] w-full">
+        <div className="flex items-center font-roboto font-normal text-[14px] text-black">
           Event
         </div>
         <div className="font-roboto font-normal text-[14px] text-black">

@@ -6,6 +6,7 @@ import Listings from "../components/Listings";
 import Offers from "../components/Offers";
 import Details from "../components/Details";
 import ItemAcivity from "../components/ItemAcivity";
+import More from "../components/More";
 
 function NftPage() {
   return (
@@ -44,6 +45,7 @@ function NftPage() {
       </div>
 
       <ItemAcivity />
+      <More />
     </div>
   );
 }
