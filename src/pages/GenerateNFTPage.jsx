@@ -1,10 +1,11 @@
 import React from "react";
 import BorderWrapper from "../components/BorderWrapper";
 import Button1 from "../components/buttons/Button1";
-
+import { useNavigate } from "react-router-dom";
 function GenerateNFTPage() {
+  const Navigate = useNavigate();
   return (
-    <div className="flex flex-col items-center gap-3 p-3">
+    <div className="flex flex-col items-center gap-5 p-4">
       <h1 className="font-apex font-normal text-[#2B2B2B] text-[24px]">
         GENERATE NFT
       </h1>
@@ -57,6 +58,10 @@ function GenerateNFTPage() {
           Btn="CONFIRM"
           borderG={false}
           textcolor="text-white"
+          textsize="text-[18px]"
+          onClick={() => {
+            Navigate("/Create NFT");
+          }}
         />
       </div>
     </div>

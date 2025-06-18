@@ -45,7 +45,7 @@ function InputMaster() {
 
       {div && (
         <div className="z-50 fixed inset-0 flex justify-center items-center bg-black/40">
-          <div className="relative bg-white shadow-lg rounded-3xl w-[425.81px] h-[520px] overflow-auto">
+          <div className="relative bg-white shadow-lg p-4 rounded-3xl w-[415px] h-[611px] overflow-auto">
             <button
               onClick={() => {
                 console.log("Close clicked");
