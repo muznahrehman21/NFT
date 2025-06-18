@@ -8,7 +8,7 @@ function GenerateNFTPage() {
       <h1 className="font-apex font-normal text-[#2B2B2B] text-[24px]">
         GENERATE NFT
       </h1>
-      <img src="/line.svg" alt="line" />
+      <img src="/g1.svg" alt="line" />
       <div className="flex flex-col gap-1 w-[353px] h-[86px]">
         <p className="font-roboto font-normal text-[#2B2B2B] text-[18px]">
           {" "}
@@ -47,7 +47,7 @@ function GenerateNFTPage() {
           Cost of Generation : 0.032 FRY
         </p>
       </div>
-      <img src="/line.svg" alt="line" />
+      <img src="/g1.svg" alt="line" />
 
       <div className="flex justify-end items-center w-[353px]">
         <Button1
