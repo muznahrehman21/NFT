@@ -5,8 +5,10 @@ import { useState } from "react";
 import Supply from "./Supply";
 import AddStyles from "./AddStyles";
 import Styles from "./Styles";
+import GenerateNFTPage from "../pages/GenerateNFTPage";
 
 function InputMaster() {
+  const [div, setDiv] = useState(false);
   const [selected, setSelected] = useState("Single NFT");
   const [counter, setCounter] = useState("1");
   const [styles, setStyles] = useState(false);
@@ -31,6 +33,7 @@ function InputMaster() {
           showIcon={true}
           radius="rounded-[10px]"
           className="top-1/2 right-2 absolute flex justify-center items-center -translate-y-1/2 transform"
+          onClick={() => setDiv(true)}
         />
       </div>
 
@@ -40,9 +43,27 @@ function InputMaster() {
         <AddStyles onClick={() => setStyles(true)} />
       </div>
 
+      {div && (
+        <div className="z-50 fixed inset-0 flex justify-center items-center bg-black/40">
+          <div className="relative bg-white shadow-lg rounded-3xl w-[425.81px] h-[520px] overflow-auto">
+            <button
+              onClick={() => {
+                console.log("Close clicked");
+                setDiv(false);
+              }}
+              className="top-4 right-4 absolute text-gray-600 hover:text-black"
+            >
+              <img src="/cross.svg" alt="close" className="cursor-pointer" />
+            </button>
+            <GenerateNFTPage />
+            {/* Modal Content Placeholder */}
+          </div>
+        </div>
+      )}
+
       {styles && (
         <div className="z-50 fixed inset-0 flex justify-center items-center bg-[#00000066]">
-          <div className="relative bg-white p-6 rounded-3xl w-[504px] h-[80vh] overflow-auto scrollbar-hide">
+          <div className="relative bg-white p-6 rounded-3xl w-[415px] h-[611px] overflow-auto scrollbar-hide">
             <button
               onClick={() => setStyles(false)}
               className="top-3 right-4 absolute cursor-pointer"
