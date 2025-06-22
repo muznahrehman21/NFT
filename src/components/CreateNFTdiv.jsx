@@ -1,6 +1,12 @@
 import React from "react";
 import Button1 from "../components/buttons/Button1";
+import { useNavigate } from "react-router-dom";
 function CreateNFTdiv() {
+  const navigate = useNavigate();
+
+  const handleMintClick = () => {
+    navigate("/Mint NFT");
+  };
   return (
     <div className="flex flex-row justify-between mt-5 w-full">
       <div className="flex flex-row items-center gap-9">
@@ -29,6 +35,7 @@ function CreateNFTdiv() {
           textsize="text-[12px]"
           font="font-montserrat"
           btnw="w-[96px]"
+          onClick={handleMintClick}
         />
       </div>
     </div>

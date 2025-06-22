@@ -13,6 +13,7 @@ import TopCollectionDetail from "./pages/TopCollectionDetail";
 import NftPage from "./pages/NftPage";
 import GenerateNFTPage from "./pages/GenerateNFTPage";
 import CreateNFTPage from "./pages/CreateNFTPage";
+import MintPage from "./pages/MintPage";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#FFF9F9]">
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Generate NFT" element={<GenerateNFTPage />} />
 
           <Route path="/Create NFT" element={<CreateNFTPage />} />
+          <Route path="/Mint NFT" element={<MintPage />} />
         </Routes>
         <div className="mt-30">
           <Footer />
