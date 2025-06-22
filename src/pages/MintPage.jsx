@@ -4,7 +4,7 @@ import MintBody from "../components/MintPage/MintBody";
 
 function MintPage() {
   return (
-    <div>
+    <div className="flex flex-col gap-8">
       <BackDiv />
       <MintBody />
     </div>
