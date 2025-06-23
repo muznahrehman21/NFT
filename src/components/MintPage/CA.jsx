@@ -2,7 +2,7 @@ import React from "react";
 
 function CA() {
   return (
-    <div className="flex flex-row gap-6 bg-amber-300 w-[817px]">
+    <div className="flex flex-row gap-6 w-[817px]">
       <div className="flex flex-row gap-8 bg-[#FFFFFF] p-4 border-[#E7E7E7] border-[2.8px] rounded-[15px] w-[396px] h-[91px ]">
         <div className="flex justify-center items-center bg-[#E7E7E7] rounded-[12px] w-[61px] h-[61px]">
           <img src="/plus.svg" alt="plus" />

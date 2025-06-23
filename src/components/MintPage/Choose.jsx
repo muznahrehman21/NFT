@@ -9,7 +9,7 @@ function Choose() {
           Choose Collection
         </p>
         <a
-          className="font-roboto font-normal text-[#808080] text-[18px] decoration-solid underline"
+          className="font-roboto font-normal text-[#808080] text-[18px] decoration-solid underline cursor-pointer"
           href=""
         >
           Choose From Existed
