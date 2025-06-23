@@ -13,7 +13,7 @@ function MintBody() {
       {/* img */}
       <img src="/gr.svg" alt="img" />
       {/* items */}
-      <div className="flex flex-col shadow-[4px_4px_15px_0_rgba(0,0,0,0.2)] p-5 rounded-[20px] w-[994px] h-[1320px]">
+      <div className="flex flex-col items-center shadow-[4px_4px_15px_0_rgba(0,0,0,0.2)] p-5 rounded-[20px] w-[994px] h-[1320px]">
         <p className="font-apex font-normal text-[#2B2B2B] text-[40px]">
           MINT YOUR NFT
         </p>
