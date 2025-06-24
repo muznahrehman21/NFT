@@ -1,7 +1,7 @@
 import React from "react";
 import Button1 from "../buttons/Button1";
 
-function ChoosesubDiv() {
+function ChoosesubDiv({ handleClose }) {
   return (
     <div className="flex flex-col justify-center items-center gap-9 p-4">
       <p className="font-apex font-normal text-[#2B2B2B] text-[24px]">
@@ -48,6 +48,7 @@ function ChoosesubDiv() {
           bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
           textcolor="text-[#FFFFFF]"
           font="font-roboto"
+          onClick={handleClose}
         />
       </div>
     </div>

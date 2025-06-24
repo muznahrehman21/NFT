@@ -60,7 +60,7 @@ function Add() {
             >
               <img src="/cross.svg" alt="close" className="cursor-pointer" />
             </button>
-            <ChoosesubDiv />
+            <ChoosesubDiv handleClose={() => setTraitsDiv(false)} />
             {/* Modal Content Placeholder */}
           </div>
         </div>
