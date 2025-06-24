@@ -6,8 +6,13 @@ import Choose from "./Choose";
 import Add from "./Add";
 import Royalities from "./Royalities";
 import Button1 from "../buttons/Button1";
+import { useNavigate } from "react-router-dom";
 
 function MintBody() {
+  const navigate = useNavigate();
+  const handleMintClick = () => {
+    navigate("/ArtistProfile");
+  };
   return (
     <div className="flex flex-row items-start gap-5 w-full">
       {/* img */}
@@ -35,6 +40,7 @@ function MintBody() {
             Btn="Mint NFT"
             textsize="text-[18px]"
             fontw="font-semibold"
+            onClick={handleMintClick}
           />
         </div>
       </div>
