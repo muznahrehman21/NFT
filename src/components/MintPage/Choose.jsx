@@ -10,7 +10,7 @@ function Choose() {
         </p>
         <a
           className="font-roboto font-normal text-[#808080] text-[18px] decoration-solid underline cursor-pointer"
-          href=""
+          href="/ChooseCollection"
         >
           Choose From Existed
         </a>
