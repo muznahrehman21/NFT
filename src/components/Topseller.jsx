@@ -12,7 +12,7 @@ function Topseller() {
         <img src="d10.png" alt="" className="-right-99 absolute" />
         <div className="z-30">
           <a
-            href=" /topsellers"
+            href="/topsellers"
             className="font-roboto font-medium text-[#FE0101] text-xl cursor-pointer"
           >
             View All
