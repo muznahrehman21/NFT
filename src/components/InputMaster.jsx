@@ -45,8 +45,8 @@ function InputMaster() {
       </div>
 
       {div && (
-        <div className="z-50 fixed inset-0 flex justify-center items-center bg-black/40">
-          <div className="relative bg-white shadow-lg p-4 rounded-3xl w-[415px] h-[611px] overflow-auto">
+        <div className="z-50 fixed inset-0 flex justify-center items-center bg-black/40 overflow-hidden">
+          <div className="relative bg-white shadow-lg p-4 rounded-3xl w-[515px] h-[611px] overflow-auto">
             <button
               onClick={() => {
                 console.log("Close clicked");
@@ -64,7 +64,7 @@ function InputMaster() {
 
       {styles && (
         <div className="z-50 fixed inset-0 flex justify-center items-center bg-[#00000066]">
-          <div className="relative bg-white p-6 rounded-3xl w-[415px] h-[611px] overflow-auto scrollbar-hide">
+          <div className="relative bg-white p-6 rounded-3xl w-[515px] h-[611px] overflow-auto scrollbar-hide">
             <button
               onClick={() => setStyles(false)}
               className="top-3 right-4 absolute cursor-pointer"
