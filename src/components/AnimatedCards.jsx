@@ -2,11 +2,11 @@ import React from "react";
 
 function AnimatedCards() {
   return (
-    <div className="relative flex flex-col justify-center items-center w-[1920px] h-[630px]">
+    <div className="relative flex flex-col justify-center items-center w-[1670px] h-[630px]">
       <img
         src="/lefthand.svg"
         alt=""
-        className="top-45 -right-55 absolute scale-x-[-1]"
+        className="top-45 -right-30 absolute scale-x-[-1]"
       />
       <img src="/lefthand.svg" alt="" className="top-45 -left-20 absolute" />
       <div className="flex flex-row justify-center w-[921.14px] h-[410.96px]">

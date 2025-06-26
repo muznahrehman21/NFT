@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex justify-center py-20 w-full">
-      <div className="mx-auto px-4 max-w-[1146px] text-center">
+    <div className="flex justify-center py-20">
+      <div className="mx-auto px-4 w-auto text-center">
         <h1 className="font-apex font-normal text-[#2B2B2B] text-[96px] text-center capitalize leading-[102px] tracking-[0.04em]">
           Discover, Create & <br />
           Sell Artworks.
