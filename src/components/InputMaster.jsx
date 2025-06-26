@@ -31,6 +31,7 @@ function InputMaster() {
           textsize="text-[18px]"
           src={"/stick.svg"}
           showIcon={true}
+          gap="gap-2"
           radius="rounded-[10px]"
           className="top-1/2 right-2 absolute flex justify-center items-center -translate-y-1/2 transform"
           onClick={() => setDiv(true)}

@@ -18,9 +18,10 @@ function Button1({
   className = "",
   font = "font-roboto",
   btnw = "w-auto",
+  gap = "gap-8",
 }) {
   const content = (
-    <div className="z-30 flex justify-center items-center gap-8">
+    <div className={`z-30 flex justify-center items-center ${gap} `}>
       <span className={` ${btnw}`}>{Btn}</span>
       {showIcon && (
         <img

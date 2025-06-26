@@ -69,6 +69,7 @@ function Auction() {
           textsize="text-[22px]"
           src={"/DoubleArrow.svg"}
           showIcon={true}
+          gap="gap-2"
           onClick={() => {
             navigate("/auctionpage");
           }}

@@ -26,6 +26,7 @@ function Imagination() {
             src={"/click.svg"}
             showIcon={true}
             radius="rounded-[10.76px]"
+            gap="gap-2"
             className="top-1/2 right-2 absolute flex justify-center items-center -translate-y-1/2 transform"
           />
         </div>
