@@ -1,5 +1,5 @@
 import React from "react";
-import Pixacio from "../components/pixacio";
+import Pixacio from "../components/Pixacio";
 import SearchBar from "../components/SearchBar";
 import PixacioArt from "../components/PixacioArt";
 
