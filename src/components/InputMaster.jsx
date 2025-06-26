@@ -64,7 +64,7 @@ function InputMaster() {
 
       {styles && (
         <div className="z-50 fixed inset-0 flex justify-center items-center bg-[#00000066]">
-          <div className="relative bg-white p-6 rounded-3xl w-[515px] h-[611px] overflow-auto scrollbar-hide">
+          <div className="relative bg-white p-6 rounded-3xl w-[513px] h-[790px] overflow-auto scroll-hidden">
             <button
               onClick={() => setStyles(false)}
               className="top-3 right-4 absolute cursor-pointer"
