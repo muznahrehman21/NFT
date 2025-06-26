@@ -9,7 +9,7 @@ export default function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-center items-center px-[300px] pt-[25px]">
+    <div className="flex justify-center items-center pt-[25px]">
       <div className="flex justify-center items-center gap-67 w-[1380px] h-[100px]">
         {/* Logo */}
         <div className="flex items-center gap-2">

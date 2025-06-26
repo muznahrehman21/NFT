@@ -16,7 +16,7 @@ import AnimatedCards from "../../components/AnimatedCards";
 export default function LandingPage() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center w-full">
+      <div className="flex flex-col justify-center items-center w-full overflow-hidden">
         <Hero />
         <div className="mt-0">
           <AnimatedCards />
