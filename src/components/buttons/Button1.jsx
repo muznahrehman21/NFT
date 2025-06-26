@@ -17,10 +17,10 @@ function Button1({
   showIcon = false,
   className = "",
   font = "font-roboto",
-  btnw = "w-full",
+  btnw = "w-auto",
 }) {
   const content = (
-    <div className="z-30 flex justify-center items-center gap-2">
+    <div className="z-30 flex justify-center items-center gap-8">
       <span className={` ${btnw}`}>{Btn}</span>
       {showIcon && (
         <img
