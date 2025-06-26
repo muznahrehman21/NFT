@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import JacobJones from "./JacobJones";
 
@@ -11,12 +12,12 @@ function Topseller() {
         <img src="/d9.png" alt="" className="top-10 -left-94 z-0 absolute" />
         <img src="d10.png" alt="" className="-right-99 absolute" />
         <div className="z-30">
-          <a
-            href="/topsellers"
+          <Link
+            to="/topsellers"
             className="font-roboto font-medium text-[#FE0101] text-xl cursor-pointer"
           >
             View All
-          </a>
+          </Link>
         </div>
       </div>
       <div className="z-10 flex flex-row gap-25">
