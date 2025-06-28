@@ -5,10 +5,8 @@ import PWA from "../components/ArtistProfile/PWA";
 
 function ArtistProfile() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mt-13 w-[1320px]">
       <ProfileSwitch />
-      <William />
-      <PWA />
     </div>
   );
 }
