@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button1 from "../buttons/Button1";
 import William from "./William";
 import PWA from "./PWA";
+import ProfileSetting from "./ProfileSetting";
 
 function ProfileSwitch() {
   const [activeTab, setActiveTab] = useState("profile");
@@ -56,7 +57,7 @@ function ProfileSwitch() {
       </div>
 
       {activeTab === "profile" && (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-24">
           <William />
           <PWA />
         </div>
@@ -64,13 +65,7 @@ function ProfileSwitch() {
 
       {activeTab === "profileSetting" && (
         <div>
-          <h2 className="mb-4 font-semibold text-[#2B2B2B] text-[20px]">
-            Profile Settings
-          </h2>
-          <p className="text-[#2B2B2B] text-[16px]">
-            This is the settings page. Put input fields like name, email, bio,
-            profile picture change, etc.
-          </p>
+          <ProfileSetting />
         </div>
       )}
     </div>

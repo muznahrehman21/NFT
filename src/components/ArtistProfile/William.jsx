@@ -26,7 +26,7 @@ function William() {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-1">
+      <div className="flex flex-col justify-center items-center gap-3">
         <p className="font-apex font-normal text-[#2B2B2B] text-[40px]">
           WILLIAM AKARANA
         </p>
@@ -48,6 +48,12 @@ function William() {
             <span className="font-roboto font-normal text-[#808080] text-[16px]">
               Items
             </span>
+          </p>
+        </div>
+        <div className="flex flex-row justify-center items-center gap-3 bg-white border-[#E7E7E7] border-[2.8px] rounded-[15px] w-[162px] h-[53px]">
+          <img src="/redlogo.svg" alt="red" />
+          <p className="font-roboto font-normal text-[#2B2B2B] text-[18px]">
+            10.89 FRY
           </p>
         </div>
       </div>
