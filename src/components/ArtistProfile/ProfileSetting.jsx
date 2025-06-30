@@ -28,7 +28,7 @@ function ProfileSetting() {
           {!banner && (
             <label
               htmlFor="banner-upload"
-              className="top-[31px] left-[145px] absolute flex justify-center items-center bg-white border-[1.4px] border-white rounded-[8px] w-[138px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer"
+              className="top-31 left-145 absolute flex justify-center items-center bg-white border-[1.4px] border-white rounded-[8px] w-[138px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer"
             >
               Upload Banner
             </label>
@@ -43,7 +43,7 @@ function ProfileSetting() {
 
           <label
             htmlFor="profile-upload"
-            className="-bottom-12 left-[152px] absolute flex justify-center items-center bg-[#D9D9D9] shadow-[3px_3px_9px_0_rgba(0,0,0,0.2)] border-[#6B6B6B] border-[1px] border-dashed rounded-full w-[100px] h-[100px] cursor-pointer"
+            className="-bottom-12 left-152 absolute flex justify-center items-center bg-[#D9D9D9] shadow-[3px_3px_9px_0_rgba(0,0,0,0.2)] border-[#6B6B6B] border-[1px] border-dashed rounded-full w-[100px] h-[100px] cursor-pointer"
           >
             {profile ? (
               <img
@@ -211,6 +211,17 @@ function ProfileSetting() {
             />
           </div>
         </div>
+        <Button1
+          width="w-[179px]"
+          height="h-[53px]"
+          borderG={false}
+          textcolor="text-[#FFFFFF]"
+          bg="bg-gradient-to-b from-[#FF5F5F] to-[#FF0000]"
+          radius="rounded-[8px]"
+          textsize="text-[14px]"
+          fontw="font-medium"
+          Btn="Save Changes"
+        />
       </div>
     </div>
   );
