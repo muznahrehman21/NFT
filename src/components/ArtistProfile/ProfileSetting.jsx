@@ -14,7 +14,7 @@ function ProfileSetting() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-8 w-full">
+    <div className="flex flex-col items-center gap-19 w-full">
       {/* Banner and Profile Upload */}
       <div className="flex flex-col gap-5 w-full">
         <div className="relative bg-[#D9D9D9] rounded-[20px] w-full h-[305px]">
@@ -66,6 +66,15 @@ function ProfileSetting() {
             className="hidden"
             onChange={handleProfileChange}
           />
+        </div>
+
+        <div className="flex justify-center items-center mt-12 w-full">
+          <label
+            htmlFor="profile-upload"
+            className="flex justify-center items-center bg-white border-[#E7E7E7] border-[1.4px] rounded-[8px] w-[127px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer"
+          >
+            Upload Profile
+          </label>
         </div>
       </div>
 
