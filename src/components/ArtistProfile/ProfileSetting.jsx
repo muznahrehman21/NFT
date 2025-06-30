@@ -1,22 +1,78 @@
 import React from "react";
-
+import { useState } from "react";
 function ProfileSetting() {
+  const [banner, setBanner] = useState(null);
+  const [profile, setProfile] = useState(null);
+  const handleBannerChange = (e) => {
+    setBanner(e.target.files[0]);
+  };
+  const handleProfileChange = (e) => {
+    setProfile(e.target.files[0]);
+  };
+
   return (
     <div className="flex flex-col items-center gap-8 w-full">
       <div className="flex flex-col gap-5 w-full">
         <div className="relative bg-[#D9D9D9] rounded-[20px] w-full h-[305px]">
-          <button className="top-31 left-145 absolute flex justify-center items-center bg-white border-[1.4px] border-white rounded-[8px] w-[138px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer">
-            Upload Banner
-          </button>
-          <div className="-bottom-12 left-152 absolute flex justify-center items-center bg-[#D9D9D9] shadow-[3px_3px_9px_0_rgba(0,0,0,0.2)] border-[#6B6B6B] border-[1px] border-dashed rounded-full w-[100px] h-[100px] cursor-pointer">
-            <img src="/addphoto.svg" alt="add" className="w-[22px] h-[22px]" />
-          </div>
+          {/* Preview Banner */}
+          {banner && (
+            <img
+              src={URL.createObjectURL(banner)}
+              alt="Banner Preview"
+              className="rounded-[20px] w-full h-full object-cover"
+            />
+          )}
+          {!banner && (
+            <label
+              htmlFor="banner-upload"
+              className="top-31 left-145 absolute flex justify-center items-center bg-white border-[1.4px] border-white rounded-[8px] w-[138px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer"
+            >
+              Upload Banner
+            </label>
+          )}
+          <input
+            type="file"
+            id="banner-upload"
+            accept="image/*"
+            onChange={handleBannerChange}
+            className="hidden"
+          />
+
+          <label
+            htmlFor="profile-upload"
+            className="-bottom-12 left-152 absolute flex justify-center items-center bg-[#D9D9D9] shadow-[3px_3px_9px_0_rgba(0,0,0,0.2)] border-[#6B6B6B] border-[1px] border-dashed rounded-full w-[100px] h-[100px] cursor-pointer"
+          >
+            {/* Preview Profile */}
+            {profile ? (
+              <img
+                src={URL.createObjectURL(profile)}
+                alt="Profile"
+                className="rounded-full w-full h-full object-cover"
+              />
+            ) : (
+              <img
+                src="/addphoto.svg"
+                alt="add"
+                className="w-[22px] h-[22px]"
+              />
+            )}
+          </label>
+          <input
+            type="file"
+            accept="image/*"
+            id="profile-upload"
+            className="hidden"
+            onChange={handleProfileChange}
+          />
         </div>
         <div className="flex justify-center items-center mt-12 w-full">
-          <button className="flex justify-center-safe items-center bg-white border-[#E7E7E7] border-[1.4px] rounded-[8px] w-[127px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer">
+          <label
+            htmlFor="profile-upload"
+            className="flex justify-center-safe items-center bg-white border-[#E7E7E7] border-[1.4px] rounded-[8px] w-[127px] h-[34px] font-roboto font-normal text-[#2B2B2B] text-[14px] cursor-pointer"
+          >
             {" "}
             Upload Profile
-          </button>
+          </label>
         </div>
       </div>
       {/* body */}
