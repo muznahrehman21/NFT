@@ -78,86 +78,86 @@ function ProfileSetting() {
       {/* body */}
       <div className="flex flex-col gap-7 w-[817px]">
         {/* Display Name */}
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             Display Name
           </label>
           <input
             type="text"
             placeholder="Enter your Name"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
         {/* Bio */}
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             Bio
           </label>
           <input
             type="text"
             placeholder="Enter Bio"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
 
         {/* Email */}
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             E-Mail
           </label>
           <input
             type="text"
             placeholder="Enter Email"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
 
         {/* Website */}
 
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             Website
           </label>
           <input
             type="text"
             placeholder="http://"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
         {/* x */}
 
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             X(Twitter)
           </label>
           <input
             type="text"
             placeholder="@username"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
         {/* Discord */}
 
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             Discord
           </label>
           <input
             type="text"
             placeholder="@username"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
         {/* insta */}
 
-        <div>
-          <label className="font-roboto font-normal text-[#2B2B2B] text-[14px]">
+        <div className="flex flex-col gap-3">
+          <label className="font-roboto font-medium text-[#2B2B2B] text-[20px]">
             Instagram
           </label>
           <input
             type="text"
             placeholder="@username"
-            className="mt-2 px-3 border-[#E7E7E7] border-[1.4px] rounded-[8px] outline-none w-full h-[40px]"
+            className="px-3 border-[#E7E7E7] border-[2.8px] rounded-[15px] outline-none w-full h-[58px] font-normal text-[#808080] text-[18px]"
           />
         </div>
       </div>
