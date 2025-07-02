@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import Button1 from "../buttons/Button1";
-
+import ProfileSwitch from "./ProfileSwitch";
+import { useNavigate } from "react-router-dom";
 function ProfileSetting() {
+  const navigate = useNavigate();
+  const handleSave = () => {
+    navigate(<ProfileSwitch />);
+  };
+
   const [banner, setBanner] = useState(null);
   const [profile, setProfile] = useState(null);
 
@@ -230,6 +236,7 @@ function ProfileSetting() {
           textsize="text-[14px]"
           fontw="font-medium"
           Btn="Save Changes"
+          onClick={handleSave}
         />
       </div>
     </div>
