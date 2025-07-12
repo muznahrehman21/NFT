@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import Button1 from "../buttons/Button1";
 import ProfileSwitch from "./ProfileSwitch";
-import { useNavigate } from "react-router-dom";
-function ProfileSetting() {
-  const navigate = useNavigate();
-  const handleSave = () => {
-    navigate(<ProfileSwitch />);
-  };
 
+function ProfileSetting({ onSave }) {
   const [banner, setBanner] = useState(null);
   const [profile, setProfile] = useState(null);
 
@@ -17,6 +12,12 @@ function ProfileSetting() {
 
   const handleProfileChange = (e) => {
     setProfile(e.target.files[0]);
+  };
+  const handleSave = () => {
+    const bannerUrl = banner ? URL.createObjectURL(banner) : null;
+    const profileUrl = profile ? URL.createObjectURL(profile) : null;
+
+    onSave(bannerUrl, profileUrl);
   };
 
   return (

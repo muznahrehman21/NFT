@@ -3,9 +3,19 @@ import Button1 from "../buttons/Button1";
 import William from "./William";
 import PWA from "./PWA";
 import ProfileSetting from "./ProfileSetting";
+import NewComponent from "./NewComponent";
 
 function ProfileSwitch() {
   const [activeTab, setActiveTab] = useState("profile");
+  const [bannerUrl, setBannerUrl] = useState(null);
+  const [profilePicUrl, setProfilePicUrl] = useState(null);
+  const [hasSaved, setHasSaved] = useState(false);
+  const handleSaveChanges = (bannerImgUrl, profileImgUrl) => {
+    setBannerUrl(bannerImgUrl);
+    setProfilePicUrl(profileImgUrl);
+    setHasSaved(true);
+    setActiveTab("profile");
+  };
 
   return (
     <div className="flex flex-col gap-6">
@@ -58,14 +68,14 @@ function ProfileSwitch() {
 
       {activeTab === "profile" && (
         <div className="flex flex-col gap-24">
-          <William />
-          <PWA />
+          <William bannerUrl={bannerUrl} profilePicUrl={profilePicUrl} />
+          {hasSaved ? <NewComponent /> : <PWA />}
         </div>
       )}
 
       {activeTab === "profileSetting" && (
         <div>
-          <ProfileSetting />
+          <ProfileSetting onSave={handleSaveChanges} />
         </div>
       )}
     </div>
