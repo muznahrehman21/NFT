@@ -228,10 +228,10 @@ function NewComponent() {
           <Card avatar="/i6.svg" textb="Boost" />
           <Card avatar="/i7.svg" textb="Boost" />
           <Card avatar="/i8.svg" showButton={false} sold={true} />
-          <Card avatar="/i9.svg" showButton={false} sold={true} />
+          <Card avatar="/i9.svg" showButton={false} />
           <Card avatar="/i10.svg" textb="Boost" />
-          <Card avatar="/i11.svg" showButton={false} sold={true} />
-          <Card avatar="/i12.svg" textb="Boost" />
+          <Card avatar="/i11.svg" showButton={false} />
+          <Card avatar="/i12.svg" textb="Boost" sold={true} />
         </div>
       </div>
     </div>

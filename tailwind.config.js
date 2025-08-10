@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 export const content = ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"];
 export const safelist = [
   "font-apex",
