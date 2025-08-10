@@ -9,6 +9,8 @@ function Card({
   price = "142.02",
   stock = 7,
   onClick = undefined,
+  textb = "Buy",
+  sold = false, // <-- NEW PROP
 }) {
   return (
     <div
@@ -16,6 +18,7 @@ function Card({
       className="relative flex flex-col justify-center items-center bg-no-repeat bg-center shadow-gray-400 shadow-xl px-4 py-4 rounded-lg w-[308px] h-103 text-center"
       style={{ backgroundImage: "url('/card.png')" }}
     >
+      {/* Avatar and header */}
       <div className="top-13 relative flex flex-row items-center mb-4 w-full">
         <div className="shadow-none ml-2 rounded-full w-[53.18px] h-[53.18px]">
           <img
@@ -34,12 +37,15 @@ function Card({
         </div>
       </div>
 
+      {/* Main image area */}
       <div className="top-12 relative w-73">
         <img
           src={avatar}
           alt="Card Visual"
           className="rounded-2xl w-full h-full"
         />
+
+        {/* Countdown overlay */}
         {countdown && (
           <div className="z-20 absolute inset-0 flex justify-center items-center">
             <div className="bg-white/80 px-4 py-2 rounded-lg font-semibold text-black">
@@ -47,8 +53,23 @@ function Card({
             </div>
           </div>
         )}
+
+        {/* SOLD overlay */}
+        {sold && (
+          <div className="z-30 absolute inset-0 rounded-2xl overflow-hidden">
+            {/* Dim background */}
+            <div className="absolute inset-0 bg-black/40" />
+            {/* SVG overlay */}
+            <img
+              src="/overlay.svg" // Make sure this file is in /public/
+              alt="Sold overlay"
+              className="z-10 relative w-full h-full object-cover"
+            />
+          </div>
+        )}
       </div>
 
+      {/* Bottom content */}
       <div className="right-5 bottom-7 relative flex justify-between items-center p-6 w-full h-full tracking-tight">
         {white ? (
           <div className="flex flex-row gap-2">
@@ -76,7 +97,7 @@ function Card({
         ) : showButton ? (
           <>
             <Button1
-              Btn="Buy"
+              Btn={`${textb}`}
               width="w-[56px]"
               height="h-[36px]"
               textcolor="text-white"

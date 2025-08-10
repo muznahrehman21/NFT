@@ -220,18 +220,18 @@ function NewComponent() {
           />
         </div>
         <div className="gap-8 grid grid-cols-4 mt-10">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card avatar="/i1.svg" />
+          <Card avatar="/i2.svg" textb="Boost" />
+          <Card avatar="/i3.svg" textb="Boost" />
+          <Card avatar="/i4.svg" textb="Boost" />
+          <Card avatar="/i5.svg" textb="Boost" />
+          <Card avatar="/i6.svg" textb="Boost" />
+          <Card avatar="/i7.svg" textb="Boost" />
+          <Card avatar="/i8.svg" showButton={false} sold={true} />
+          <Card avatar="/i9.svg" showButton={false} sold={true} />
+          <Card avatar="/i10.svg" textb="Boost" />
+          <Card avatar="/i11.svg" showButton={false} sold={true} />
+          <Card avatar="/i12.svg" textb="Boost" />
         </div>
       </div>
     </div>
